@@ -12,6 +12,7 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
   document.getElementById(
     "Menu"
-  ).innerHTML = `<a href="#Menu" onclick="openNav()"><i class="material-icons">&#xe5d2;</i></a>`;
-  document.bodygetElementById("main").style.position = "absolute";
+    ).innerHTML = `<a href="#Menu" onclick="openNav()"><i class="material-icons">&#xe5d2;</i></a>`;
+  document.getElementById("main").style.position = "static";
+  
 }
