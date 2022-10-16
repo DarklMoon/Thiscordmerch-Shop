@@ -16,7 +16,7 @@ html, body {
   overflow: visible;
 }
 
-#main{width:100%; overflow-x:hidden; transition: margin-left .5s;}
+#main{width:100%; overflow-x:hidden; transition: margin-left .5s; position: static;}
 #Icon{transition: margin-left .5s;}
 
 .NavigationBar{
