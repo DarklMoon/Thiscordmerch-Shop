@@ -15,7 +15,7 @@ html, body {
   overflow: visible;
 }
 
-#main{width:100%; overflow-x:hidden; transition: margin-left .5s; position: absolute;}
+#main{width:100%; overflow-x:hidden; transition: margin-left .5s;}
 #Icon{transition: margin-left .5s;}
 
 .NavigationBar{
@@ -36,16 +36,18 @@ html, body {
   text-decoration: none;
   padding:21.5px 1vw;
 }
+
+.NavigationBar li a i{padding-top:0.5vh;}
+
 .NavigationBar li:hover{background-color: black;}
 .NavigationBar li:hover a{color: white;}
 .NavigationBar li:hover ul li a{color: black;}
 
-#Icon:hover{background-color: white;}
+#Icon:hover{background-color: transparent;}
 #Icon:hover a{color: black;}
 
 .dropdown li:hover{background-color: grey;}
 
-.NavigationBar li a i{padding-top:0.5vh;}
 .dropdown{
   padding: 0;
   list-style: none;

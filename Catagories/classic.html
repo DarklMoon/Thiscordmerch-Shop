@@ -47,6 +47,7 @@
 
     <div id="main">
         <!-- ------------------NavBar---------------------- -->
+        <div style="background-color: lightgray;">
         <ul class="NavigationBar">
             <li id="Cart"><a href="../cart.html">
                     <i class="material-icons">shopping_cart</i>
@@ -71,12 +72,79 @@
             <li id="Menu"><a href="javascript:void(0)" onclick="openNav()"><i class="material-icons">&#xe5d2;</i></a></li>
             <li id="Icon"><a href="../index.html">Thiscordmerch</a></li>
         </ul>
+        </div>
         <!-- ------------------End--NavBar----------------- -->
 
-        <h2>Classic</h2>
+        <div class="m-5">
+            <h2>Catagories</h2>
+            <br>
+            <table class="table">
+                <thead >
+                  <tr style="text-align: center;">
+                    <th style="border:none;"><a href="">Classic</th>
+                    <th style="border:none;">Country</th>
+                    <th style="border:none;">Jazz</th>
+                    <th style="border:none;">Pop</th>
+                    <th style="border:none;">R&B</th>
+                  </tr>
+                </thead>
+                <tbody id="detail">
+                  <tr style="height:30vh;">
+                    <td colspan="2" rowspan="2" style="border:none;">
+                        picture for song
+                    </td>
+                    <td colspan="3" rowspan="2" style="border:none;">
+                        description for song????
+                        <button class="btn btn-primary" style="bottom:10px;right:10px;">View</button>
+                    </td>
+                  </tr>
+                  <tr></tr>
+                </tbody>
+                </table>
+        </div>
     </div>
     
     <script src="../assets/js/Home.js"></script>
     <script src="../assets/js/NavBar.js"></script>
+    <script>
+        function myFunction(x) {
+            if (x.matches) { // If media query matches
+                document.getElementById("detail").innerHTML = 
+                `<tr>
+                    <td colspan="5" style="border:none;">
+                        picture for song2
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="border:none;">
+                        description for song????2
+                        <button class="btn btn-primary" style="bottom:10px;right:10px;">View</button>
+                    </td>
+                </tr>
+            </tr>`;
+            } 
+            else {
+                document.getElementById("detail").innerHTML = 
+                `<tr style="height:30vh;">
+                    <td colspan="2" rowspan="3" style="border:none;">
+                        picture for song
+                    </td>
+                    <td colspan="3" rowspan="2" style="border:none;">
+                        description for song????
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr >
+                    <td colspan="3" style="border:none;">
+                        <button class="btn btn-primary">View</button>
+                    </td>
+                </tr>`;
+            }
+        }
+
+        var x = window.matchMedia("(max-width: 600px)")
+        myFunction(x) // Call listener function at run time
+        x.addListener(myFunction)
+    </script>
 </body>
 </html>
