@@ -1,0 +1,151 @@
+.cart-container{
+    margin-top: 20vh;
+}
+
+.hr-line1{
+    width: 50px;
+    border-top: 1px solid black;
+}
+
+.hr-line2{
+    width: 90%;
+    border-top: 1px solid black;
+    margin: auto;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-product{
+    margin: auto;
+    width: 95vw;
+    height: 56vh;
+    /* background-color: red; */
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.product-container{
+    /* position: relative; */
+    display: inline-grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-gap: 5%;
+    /* background-color: #2196F3; */
+    justify-items: center;
+    align-items: center;
+    padding: 3% 15% 5% 0%;
+    /* border: 1px solid gray; */
+
+}
+
+div.product-1{
+    max-width: 150px;
+}
+
+.product-1 h4{
+    text-align: center;
+    min-width: 200px;
+}
+.product-1{
+    /* position: absolute; */
+    /* left: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#p1{
+    max-width: 100%;
+}
+
+.product-num{
+
+    justify-content: center
+}
+
+#num-p{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 10px;
+    width: 40px;
+    outline: none;
+    border: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.cart-below{
+    width: 100%;
+}
+
+.cart-grid{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50vw 50vw;
+    /* grid-gap: 1%;   */
+    padding: 5% 10% 10% 10%;
+
+}
+
+.cart-grid p {
+    font-size: 120%;
+}
+
+#input-instruc{
+    background-color: #f9f7f7;
+    padding: 10px 12px;
+    border: none;
+    width: 75%;
+    height: 70%;
+}
+
+.cartBelow-right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: center;
+    padding-right: 10%;
+}
+
+.btnProduct-container button{
+    position: relative;
+    right: 0;
+    background-color: rgb(89, 100, 242);
+    color: white;
+    margin: 10px 0 0 0;
+    min-width: 155px;
+    min-height: 56px;
+    border-radius: 28px;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+
+}
+
+.btnProduct-container button:hover{
+    background-color: #7884f7;
+}
+
+.cartTotal-container{
+
+}
