@@ -1,58 +1,311 @@
 [
     {
-        "id":"1",
-        "type":"Pop",
-        "name":"17",
-        "description":"",
-        "image":"",
-        "sound":""
+        "id":"1", "type":"ลูกทุ่ง",
+        "name":"ไอ้หวังตายแน่", "artist":"ศรเพชร ศรสุพรรณ",   
+        "description":"ไอ้หวังตายแน่ ตายแน่ไอ้หวัง ไอ้หวังตายแน่ ตายแน่ ไอ้หวัง",
+        "image":"../pic/ลูกทุ่ง/ไอ้หวังตายแน่.jpg",
+        "sound":"../song/ลูกทุ่ง/ไอ้หวังตายแน่.mp3"
     },
     {
-        "id":"2",
-        "type":"Pop",
-        "name":"เกินต้าน",
-        "description":"",
-        "image":"",
-        "sound":""
+        "id":"2", "type":"ลูกทุ่ง",
+        "name":"วอนพ่อขุน", "artist":"ชัย สานุวัฒน์",   
+        "description":"ฝากพ่อ ขุนรามฯ ช่วยดูตาม คุ้มครอง เธอด้วย อย่าให้ คนรวย ทำให้เธอ ต้องเสียน้ำ ตา จากห้วง หัวใจ ของชายไร้ ปริญญา ขอจง มีสุข เถิดหนา หนุ่มบ้านนา นั้นยอม ปวด ใจ ...เฝ้า รอ",
+        "image":"../pic/ลูกทุ่ง/วอนพ่อขุน.jpg",
+        "sound":"../song/ลูกทุ่ง/วอนพ่อขุน.mp3"
     },
     {
-        "id":"3",
-        "type":"Pop",
-        "name":"ใครเพื่อนแก",
-        "description":"",
-        "image":"",
-        "sound":""
+        "id":"3", "type":"ลูกทุ่ง",
+        "name":"ปวดหัวจัง", "artist":"น้องเบนซ์ จูเนียร์",   
+        "description":"ปวดหัวจัง ปวดหัวจัง ปวดหัวจัง ปวดหัวจัง ปวดหัวจัง",
+        "image":"../pic/ลูกทุ่ง/ปวดหัวจัง.jpg",
+        "sound":"../song/ลูกทุ่ง/ปวดหัวจัง.mp3"
     },
     {
-        "id":"4",
-        "type":"Pop",
-        "name":"ฉันนี่แหละ... คนอื่น",
-        "description":"",
-        "image":"",
-        "sound":""
+        "id":"4", "type":"ลูกทุ่ง",
+        "name":"ดาวมีไว้เบิ่ง", "artist":"ไหมไทย ใจตะวัน",   
+        "description":"แต่ความจริงคือ ดาวมีไว้เบิ่ง อ้ายเอื้อมบ่ถึงดอกเด้อ หัวใจของน้อง หลับตาฝันอ้ายจังได้กอด ยามคึดฮอดได้แต่หลอยมอง ไร้วาสนาได้เป็นเจ้าของดาวนั่น ถึงผูกคอตาย ใต้ต้นบักเขือขื่น คงบ่อาจฝืนชะตา ที่ฟ้าแบ่งกั้น",
+        "image":"../pic/ลูกทุ่ง/ดาวมีไว้เบิ่ง.jpg",
+        "sound":"../song/ลูกทุ่ง/ดาวมีไว้เบิ่ง.mp3"
     },
     {
-        "id":"5",
-        "type":"Pop",
-        "name":"ซูลูก้า ตาปาเฮ้",
-        "description":"",
-        "image":"",
-        "sound":""
+        "id":"5", "type":"ลูกทุ่ง",
+        "name":"จี่หอย", "artist":"พี สะเดิด",   
+        "description":"เลาะเลียบตามแคบน้ำ แคมหนอง ก็มีของกินเป็นอาหาร หอยปากกว้าง นั่นหล่ะโตการ มันเป็นโตมาร กัดกกข้าวในนา มันเป็นโตมาร กัดกกข้าวในนา",
+        "image":"../pic/ลูกทุ่ง/จี่หอย.jpg",
+        "sound":"../song/ลูกทุ่ง/จี่หอย.mp3"
     },
     {
-        "id":"6",
-        "type":"Pop",
-        "name":"ทักครับ",
-        "description":"",
-        "image":"",
-        "sound":""
+        "id":"6", "type":"ลูกทุ่ง",
+        "name":"คู่ครอง", "artist":"ก้อง ห้วยไร่",   
+        "description":"บ่มีอีหยังมาพังทลาย ความฮักเฮาสองลงได้ แม้ดินสลายยังมั่นคงคือจั่งตอนเริ่ม ฮักที่แลก ด้วยแหกกฏฟ้า ถึงมีน้ำตาเข้ามาแต่งเติม ความปวดร้าวสิเข้ามาเสริม บ่เคยคิดย่าน",
+        "image":"../pic/ลูกทุ่ง/คู่ครอง.jpg",
+        "sound":"../song/ลูกทุ่ง/คู่ครอง.mp3"
     },
     {
-        "id":"7",
-        "type":"Pop",
-        "name":"ลมแล้ง",
-        "description":"",
-        "image":"",
-        "sound":""
+        "id":"7", "type":"ลูกทุ่ง",
+        "name":"ข้ามันลูกทุ่ง", "artist":"ไท ธนาวุฒิ",   
+        "description":"ข้าพูดเอ็ง มึงกู ฟังดูก็ตรงหนักหนา ข้าชอบไทยเดิม ข้าส่งข้าเสริมคำพูดบ้านข้า ข้าแต่งกับเอ็งเอ็งเป็นของข้า ใครเรียกภรรยาแต่ข้าเรียกเมีย",
+        "image":"../pic/ลูกทุ่ง/ข้ามันลูกทุ่ง.jpg",
+        "sound":"../song/ลูกทุ่ง/ข้ามันลูกทุ่ง.mp3"
+    },
+
+
+
+    {
+        "id":"8", "type":"T-POP",
+        "name":"Summertime", "artist":"YEW & LANDOKMAI",   
+        "description":"หลับตาลงก็คิดถึงคุณที่อยู่ตรงนี้ตลอดมา ช่วงเวลาที่เราจับมือและมอบความรักก่อนจากลา ยิ้มที่ผมเคยมองทุกวัน คำที่คุณต้องพูดทุกครา ฉันคิดถึงเธอจริง ๆ",
+        "image":"../pic/T-POP/ลมแล้ง.jpg",
+        "sound":"../song/T-POP/ลมแล้ง.mp3"
+    },
+    {
+        "id":"9", "type":"T-POP",
+        "name":"ทักครับ", "artist":"LIPTA & GUYGEEGEE",   
+        "description":"ไม่อยากให้คุณมีแฟน ไม่ได้อยากให้คุณมีใคร คนเดียวนี้นั้นไว้ใจยาก มีแต่ผมที่ไว้ใจได้ ไม่อยากให้คุณมีแฟน ไม่ได้อยากให้คุณมีใคร อยากให้มีแค่ผมคนเดียว ได้ไหม",
+        "image":"../pic/T-POP/ทักครับ.jpg",
+        "sound":"../song/T-POP/ทักครับ.mp3"
+    },
+    {
+        "id":"10", "type":"T-POP",
+        "name":"ซูลูก้า ตาปาเฮ้", "artist":"THEMOONALWAYSBEWITHME",   
+        "description":"มีแค่เธอคนเดียวเท่านั้น และฉันขอแค่เธอได้โปรดฟังไว้ ว่าฉันไม่เคยที่จะหายไปหายไป คิดถึงเพียงแต่เธอรู้ไหมขอให้เธอรับรู้เอาไว้ ว่าฉันไม่เคยที่จะสนใจผู้ใด หมดทั้งใจแค่เธอไม่เคยเปลี่ยน",
+        "image":"../pic/T-POP/ซูลูก้า ตาปาเฮ้.jpg",
+        "sound":"../song/T-POP/ซูลูก้า ตาปาเฮ้.mp3"
+    },
+    {
+        "id":"11", "type":"T-POP",
+        "name":"ฉันนี่แหละ ... คนอื่น", "artist":"CHILLAX",   
+        "description":"ฉันนี่แหละ ที่เป็นคนอื่น ฉันนี่แหละ ที่ควรเข้าใจ ตัวจริงมันคือเขา มีฉันไว้แก้เหงา สาแก่ใจของเธอแล้วใช่ไหม ฉันนี่แหละ ที่เป็นคนอื่น  ฉันนี่แหละ ที่ควรต้องไป รักเธอมากแค่ไหน ไม่เคยมีความหมาย  รักให้ตายสุดท้ายเป็นได้แค่คนอื่น",
+        "image":"../pic/T-POP/ฉันนี่แหละ...คนอื่น.jpg",
+        "sound":"../song/T-POP/ฉันนี่แหละ...คนอื่น.mp3"
+    },
+    {
+        "id":"12", "type":"T-POP",
+        "name":"ใครเพื่อนแก", "artist":"bamm",   
+        "description":"ไม่ได้อยากจะเป็นเพื่อนแกว่ะ ใครเพื่อนแกอะ ถามกันบ้างหรือยัง ให้เธอไปตั้งเยอะ ได้แค่เพื่อนเองเหรอ บอกเลยใจฉันคิดไปมากกว่านั้น ไม่ได้อยากจะเป็นเพื่อนแกว่ะ ใครเพื่อนแกอะ ขอเป็นแฟนได้ไหม เพื่อนก็มีตั้งเยอะแล้วพอเถอะ งั้นก็ช่างเหอะ ขอโทษที ที่แคร์แกเกินกว่าเพื่อนกัน",
+        "image":"../pic/T-POP/ใครเพื่อนแก.jpg",
+        "sound":"../song/T-POP/ใครเพื่อนแก.mp3"
+    },
+    {
+        "id":"13", "type":"T-POP",
+        "name":"เกินต้าน", "artist":"PIXXIE",   
+        "description":"ก็เธอน่ารักจนเกินต้านขนาดนี้ จะรักคนคนนี้ เพราะคนอื่น ก็สู้เธอไม่ได้หรอก มองทีไรก็น่ารักและสดใส คงต้านเธอไม่ไหว ฉันคงไปรักคนอื่น ไม่ได้หรอก",
+        "image":"../pic/T-POP/เกินต้าน.jpg",
+        "sound":"../song/T-POP/เกินต้าน.mp3"
+    },
+    {
+        "id":"14", "type":"T-POP",
+        "name":"17", "artist":"DEPT",   
+        "description":"หากถ้าปล่อยให้เธอผ่านไปคงจะไม่ดี แต่จะให้คว้าเธอเอาไว้กลัวไม่เป็นดั่งใจ หากพรุ่งนี้ฉันต้องเห็นเธอไปรักใคร คงไม่ดี คงไม่ดี คงไม่ดี",
+        "image":"../pic/T-POP/17.jpg",
+        "sound":"../song/T-POP/17.mp3"
+    },
+
+
+
+    {
+        "id":"15", "type":"K-POP",
+        "name":"Weekend", "artist":"TAEYEON",   
+        "description":"가장 가까운 바다, 혼자만의 영화관 그냥 이끌리는 대로 해도 괜찮으니까 훌쩍 떠나보는 drive, 뚜벅 걸어도 좋아 뭐든 발길 닿는 대로 지금 떠나보려 해, oh",
+        "image":"../pic/K-POP/weekend.jpg",
+        "sound":"../song/K-POP/weekend.mp3"
+    },
+    {
+        "id":"16", "type":"K-POP",
+        "name":"We don't talk together", "artist":"Heize",   
+        "description":"I know 우린 사랑해서 We don't talk together 여전히 난 너인걸 Why don't you 인정하기 싫은걸 Why don't you 보낼 수가 없는걸",
+        "image":"../pic/K-POP/we don_t talk together.jpg",
+        "sound":"../song/K-POP/we don_t talk together.mp3"
+    },
+    {
+        "id":"17", "type":"K-POP",
+        "name":"Some", "artist":"Bolbbalgan4",   
+        "description":"나 오늘부터 너랑 썸을 한번 타볼 거야 나 매일매일 네게 전화도 할 거야 밀가루 못 먹는 나를 달래서라도 넘넘 스윗한 넌 정말 달콤한 걸 넘넘 스윗한 넌",
+        "image":"../pic/K-POP/some.jpg",
+        "sound":"../song/K-POP/some.mp3"
+    },
+    {
+        "id":"18", "type":"K-POP",
+        "name":"Say yes", "artist":"Punch & Moonbyul",   
+        "description":"니 눈앞에 왔잖아 내가 여기 있잖아 너의 입술로 말을 해줘 Say yes say yes 나도 모르게 너에게 가고 있나봐 부는 바람에 내 맘 전할래 Love is true",
+        "image":"../pic/K-POP/say yes.jpg",
+        "sound":"../song/K-POP/say yes.mp3"
+    },
+    {
+        "id":"19", "type":"K-POP",
+        "name":"Only", "artist":"LEE HI",   
+        "description":"Now I believe 라랄라랄라라 부르는 노래 찾고 찾고 찾아 헤매이던 그대와 My, oh my, oh my, oh 내 사랑 Be my only love",
+        "image":"../pic/K-POP/only.jpg",
+        "sound":"../song/K-POP/only.mp3"
+    },
+    {
+        "id":"20", "type":"K-POP",
+        "name":"Mayday", "artist":"Crush & Joy",   
+        "description":"왜 이래 하루 종일 한 것도 없이 또 피곤해 맘껏 쉬는 게 이리 힘들 줄은 mayday Somebody help me mayday Somebody mayday mayday mayday",
+        "image":"../pic/K-POP/mayday.jpg",
+        "sound":"../song/K-POP/mayday.mp3"
+    },
+    {
+        "id":"21", "type":"K-POP",
+        "name":"Beautiful", "artist":"Crush",   
+        "description":"It's a beautiful life, beautiful day 미치도록 널 사랑했었던 날 Beautiful life, beautiful day 너를 잃고 싶지 않아 Beautiful my love Beautiful your heart It's a beautiful life",
+        "image":"../pic/K-POP/beautiful.jpg",
+        "sound":"../song/K-POP/beautiful.mp3"
+    },
+
+
+
+    {
+        "id":"22", "type":"HIP-HOP",
+        "name":"แฟนใหม่หน้าคุ้น", "artist":"Maiyarap & Milli",   
+        "description":"แฟนใหม่คุณหน้าคุ้นคุ้น เหมือนคนที่คุณบอกว่าไม่มีอะไร ยังจำได้ดีว่าในตอนนั้น เธอบอกกับฉันว่าจงเชื่อใจ ยืนยันว่าแค่เพื่อนกัน จะโกหกฉันไปเพื่ออะไร สุดท้ายแล้วเป็นไง แฟนใหม่เธอหน้าคุ้นจัง",
+        "image":"../pic/HIP-HOP/แฟนใหม่หน้าคุ้น.jpg",
+        "sound":"../song/HIP-HOP/แฟนใหม่หน้าคุ้น.mp3"
+    },
+    {
+        "id":"23", "type":"HIP-HOP",
+        "name":"หลอก", "artist":"NICECNX",   
+        "description":"สุดท้ายแล้วเธอไม่โกหก แต่ลืมบอกกันว่าไม่รัก ฉันโดนหลอก เธอบอกกันเธอใจร้าย สุดท้ายแล้วเป็นไง เธอทิ้งตัวฉันไป แต่อันที่จริงฉันไม่รักเธออยู่แล้ว",
+        "image":"../pic/HIP-HOP/หลอก.jpg",
+        "sound":"../song/HIP-HOP/หลอก.mp3"
+    },
+    {
+        "id":"24", "type":"HIP-HOP",
+        "name":"ผมอะ... umm", "artist":"JARVIS",   
+        "description":"ผมอะ Umm I got that racks on racks ผมแบกเงินมาสองแขน ผมอะ Umm ดาวน์รถไปสองแสน ได้พริตตี้เป็นของแถม ผมอะ Umm ดูเธอ move like that อยากจะเข้าไปกระแทก ผมอะ Umm หัวกูโดนของแข็ง ตบทิฟฟี่ไปสองแผง",
+        "image":"../pic/HIP-HOP/ผมอะ...อืมมม.jpg",
+        "sound":"../song/HIP-HOP/ผมอะ...อืมมม.mp3"
+    },
+    {
+        "id":"25", "type":"HIP-HOP",
+        "name":"นํ้าแดง นํ้าส้ม", "artist":"JARVIS",   
+        "description":"มีนั้งแดงละจะกิงน้ำส้วง มีนั้งส้วงละจะกิงน้ำแดง รถกูไม่แรงแต่กูทำมึงง่วง ฉี่กูไม่ม่วงแต่กูยังมีแรง อั๊วหัวแดงแต่ก็ทำลื้อร่วง เอามึงไปคั่วอยู่ในพริกแกง",
+        "image":"../pic/HIP-HOP/นํ้าแดง นํ้าส้ม.jpg",
+        "sound":"../song/HIP-HOP/นํ้าแดง นํ้าส้ม.mp3"
+    },
+    {
+        "id":"26", "type":"HIP-HOP",
+        "name":"Morning", "artist":"LAZYLOXY",   
+        "description":"ฉันนั่งอยู่ตอนเช้า เช้าที่ดูเหงา ๆ เหมือนกับโลกที่มีฟิลเตอร์สีเทา แม้อากาศจะหนาว แต่พอมีแดดก็ร้อน ฉันยังคงนั่งมองดูตรงที่เก่า ฟังดูเหมือนละครแต่ว่าภาพที่มอง มันค่อย ๆ ย้อนเรื่องเรา แม้ความรักพังลงแต่ว่าฉันยังคง คิดถึงเธอเบา ๆ เท่านั้น",
+        "image":"../pic/HIP-HOP/morning.jpg",
+        "sound":"../song/HIP-HOP/morning.mp3"
+    },
+    {
+        "id":"27", "type":"HIP-HOP",
+        "name":"Let you go", "artist":"Cyanide & LAZYLOXY",   
+        "description":"แม้ภายในใจยังคงพร่ำเพ้อ แต่ขอให้เธอจากไปด้วยดี ก็รู้ว่าคงไม่มีวิธีไห้เธอมาอยู่กับชั้นในตอนนี้ เราต่างหายตายไปจากกันก็ปล่อยให้เธอทำตามความฝัน ส่วนตรงนี้ไม่ต้องห่วงฉันไปอยู่ตรงนั้นที่ใจของเธอต้องการ",
+        "image":"../pic/HIP-HOP/let you go.jpg",
+        "sound":"../song/HIP-HOP/let you go.mp3"
+    },
+    {
+        "id":"28", "type":"HIP-HOP",
+        "name":"Kiminoto", "artist":"Sprite & Youngohm",   
+        "description":"ก็เพราะว่าเธอนั้นมันคิมิโนโตะ สวยกว่าใครที่เจอมาก่อน ทำใจมันหวั่นมันไหว เพราะงี้เลยมีเเต่คนมาชอบ ทำให้ใจฉันพังตลอด อย่าไปทำใครให้หวั่นไหวนักเธอ",
+        "image":"../pic/HIP-HOP/kiminoto.jpg",
+        "sound":"../song/HIP-HOP/kiminoto.mp3"
+    },
+
+
+
+    {
+        "id":"29", "type":"RNB",
+        "name":"To be with you", "artist":"Jose James",   
+        "description":"You're everything I wanted You're everything I've got You're all the love I needed Pray that it never stops Oh first it felt like dreaming Oh but our love don't stop Know every time you need me Oh I'll be there to be with you",
+        "image":"../pic/RNB/to be with you.jpg",
+        "sound":"../song/RNB/to be with you.mp3"
+    },
+    {
+        "id":"30", "type":"RNB",
+        "name":"Weekend", "artist":"Percent",   
+        "description":"I wanna fall in love weekend 기다림이 끝나면 Fall in love Fall in love Fall in love weekend 주말만을 기다려 Weekend Weekend oh",
+        "image":"../pic/RNB/weekend.jpg",
+        "sound":"../song/RNB/weekend.mp3"
+    },
+    {
+        "id":"31", "type":"RNB",
+        "name":"Paris in the rain", "artist":"Lauv",   
+        "description":"Cause anywhere with you feels right Anywhere with you feels like Paris in the rain Paris in the rain",
+        "image":"../pic/RNB/paris in the rain.jpg",
+        "sound":"../song/RNB/paris in the rain.mp3"
+    },
+    {
+        "id":"32", "type":"RNB",
+        "name":"Is magic gone", "artist":"FKJ",   
+        "description":"I've been waiting on for too long I have to tell you now all my thoughts Our flame is only getting bloomed Is magic gone? Is magic gone? Is magic gone? Is magic gone?",
+        "image":"../pic/RNB/is magic gone.jpg",
+        "sound":"../song/RNB/is magic gone.mp3"
+    },
+    {
+        "id":"33", "type":"RNB",
+        "name":"Honesty", "artist":"Pink Sweat",   
+        "description":"Would you share your flaws with me? Let me know I told her, Thinking is all wrong Love will happen when it wants I know it hurts sometimes, but don't let it go",
+        "image":"../pic/RNB/honesty.jpg",
+        "sound":"../song/RNB/honesty.mp3"
+    },
+    {
+        "id":"34", "type":"RNB",
+        "name":"Focus", "artist":"H.E.R",   
+        "description":"Me Can you focus on me? (Ooh, yeah) Baby, can you focus on me? Me, me Can you focus on me? Baby, can you focus on me?",
+        "image":"../pic/RNB/focus.jpg",
+        "sound":"../song/RNB/focus.mp3"
+    },
+    {
+        "id":"35", "type":"RNB",
+        "name":"Easily", "artist":"Bruno Major",   
+        "description":"Don’t you tell me that it wasn’t meant to be Call it quits, call it destiny Just because it won’t come easily Doesn’t mean we shouldn’t try",
+        "image":"../pic/RNB/easily.jpg",
+        "sound":"../song/RNB/easily.mp3"
+    },
+
+
+
+    {
+        "id":"36", "type":"Jazz",
+        "name":"How do I live", "artist":"LeAnn Rimes",   
+        "description":"How do I live without you I want to know How do I breathe without you If you ever go How do I ever, ever survive How do I, how do I, oh how do I live",
+        "image":"../pic/Jazz/How do I live.jpg",
+        "sound":"../song/Jazz/How do I live.mp3"
+    },
+    {
+        "id":"37", "type":"Jazz",
+        "name":"Home", "artist":"Michael Bublé",   
+        "description":"Let me go home I'm just too far From where you are I wanna come home",
+        "image":"../pic/Jazz/Home.jpg",
+        "sound":"../song/Jazz/Home.mp3"
+    },
+    {
+        "id":"38", "type":"Jazz",
+        "name":"Greatest love of all", "artist":"Whitney houston",   
+        "description":"I decided long ago Never to walk in anyone's shadows If I fail, if I succeed At least I'll live as I believe No matter what they take from me They can't take away my dignity",
+        "image":"../pic/Jazz/Greatest love of all.jpg",
+        "sound":"../song/Jazz/Greatest love of all.mp3"
+    },
+    {
+        "id":"39", "type":"Jazz",
+        "name":"Eternal flame", "artist":"Atomic Kitten",   
+        "description":"Close your eyes, give me your hand, darling Do you feel my heart beating? Do you understand? Do you feel the same? Am I only dreaming? Is this burning an eternal flame?",
+        "image":"../pic/Jazz/Eternal flame.jpg",
+        "sound":"../song/Jazz/Eternal flame.mp3"
+    },
+    {
+        "id":"40", "type":"Jazz",
+        "name":"Don't know why", "artist":"Norah Jones",   
+        "description":"My heart is drenched in wine But you'll be on my mind forever",
+        "image":"../pic/Jazz/Don_t know why.jpg",
+        "sound":"../song/Jazz/Don_t know why.mp3"
+    },
+    {
+        "id":"41", "type":"Jazz",
+        "name":"Casablanca", "artist":"Bertie Higgins",   
+        "description":"Ooh, a kiss is still a kiss in Casablanca But a kiss is not a kiss without your sigh Please come back to me in Casablanca I love you more and more each day as time goes by",
+        "image":"../pic/Jazz/Casablanca.jpg",
+        "sound":"../song/Jazz/Casablanca.mp3"
+    },
+    {
+        "id":"42", "type":"Jazz",
+        "name":"Careless whisper", "artist":"George Michael",   
+        "description":"I'm never gonna dance again Guilty feet have got no rhythm Though it's easy to pretend I know you're not a fool",
+        "image":"../pic/Jazz/Careless whisper.jpg",
+        "sound":"../song/Jazz/Careless whisper.mp3"
     }
 ]
