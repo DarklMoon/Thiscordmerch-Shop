@@ -24,7 +24,7 @@
 .list-product{
     margin: auto;
     width: 95vw;
-    height: 56vh;
+    height: 50vh;
     /* background-color: red; */
     overflow-y: scroll;
     scrollbar-width: thin;
@@ -43,15 +43,15 @@
 
 }
 
-div.product-1{
+div.product{
     max-width: 150px;
 }
 
-.product-1 h4{
+.product h4{
     text-align: center;
     min-width: 200px;
 }
-.product-1{
+.product{
     /* position: absolute; */
     /* left: 0; */
     display: flex;
@@ -64,9 +64,21 @@ div.product-1{
     max-width: 100%;
 }
 
+.record-name{
+    text-align: center;
+}
+
 .product-num{
 
     justify-content: center
+}
+
+.btn-minus{
+    cursor: pointer;
+}
+
+.btn-plus{
+    cursor: pointer;
 }
 
 #num-p{
@@ -139,11 +151,19 @@ div.product-1{
     font-size: 1.2em;
     border: none;
     outline: none;
+    cursor: pointer;
 
 }
 
 .btnProduct-container button:hover{
     background-color: #7884f7;
+
+}
+
+.btnProduct-container button:focus,
+.btnProduct-container button:active{
+    border: none;
+    outline: none;
 }
 
 .cartTotal-container{
