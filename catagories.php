@@ -7,6 +7,7 @@
     <title>Thiscordmerch Shop</title>
     <link rel="stylesheet" href="assets/css/NavBar.css">
     <link rel="stylesheet" href="assets/css/Home.css">
+    <link rel="stylesheet" href="assets/css/catagories.css">
     <!--Import Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -40,7 +41,7 @@
                 <li><a href="#">Credit</a></li>
             </ul>
         </li>
-        <li><a href="#account">Account</a></li>
+        <li><a href="#">Account</a></li>
         <li><a href="cart.html">Cart</a></li>
         <li><a href="javascript:closeNav()">Close</a></li>
     </ul>
@@ -48,10 +49,11 @@
 
     <div id="main">
         <!-- ------------------NavBar---------------------- -->
+        <div style="background-color: lightgray;">
         <ul class="NavigationBar">
             <li id="Cart"><a href="cart.html">
                     <i class="material-icons">shopping_cart</i>
-            <li id="Account"><a href="#account">
+            <li id="Account"><a href="#">
                     <i class="material-icons">person</i>
                 </a></li>
             <li id="More"><b><a href="javascript:void(0)">More ▾</a></b>
@@ -73,24 +75,70 @@
             <li id="Menu"><a href="javascript:void(0)" onclick="openNav()"><i class="material-icons">&#xe5d2;</i></a></li>
             <li id="Icon"><a href="index.html">Thiscordmerch</a></li>
         </ul>
+        </div>
         <!-- ------------------End--NavBar----------------- -->
 
-        <image style="width:100%; height:45vw" src="https://i.ytimg.com/vi/K4TOrB7at0Y/maxresdefault.jpg">
+        <div class="CategoriesMain">
+            <h2>Catagories</h2>
+            <br>
+            <div>
+                <form class="catagoryForm" action="catagories.php" method="get">
+                <div class="row mx-auto text-center">
+                    <div class="catagory col-4 col-md-2"><input type="submit" class="catagoryMenu" name="ลูกทุ่ง" value="Luktung"></div>
+                    <div class="catagory col-4 col-md-2"><input type="submit" class="catagoryMenu" name="T-POP" value="T-POP"></div>
+                    <div class="catagory col-4 col-md-2"><input type="submit" class="catagoryMenu" name="K-POP" value="K-POP"></div>
+                    <div class="catagory col-4 col-md-2"><input type="submit" class="catagoryMenu" name="Hiphop" value="Hip hop"></div>
+                    <div class="catagory col-4 col-md-2"><input type="submit" class="catagoryMenu" name="R&B" value="R&B"></div>
+                    <div class="catagory col-4 col-md-2"><input type="submit" class="catagoryMenu" name="Jazz" value="Jazz"></div>
+                </div>
+                </form>
+                
+                <div class="catagoryList" style="width:100%;padding:0;">
+                    <div class="row mx-auto text-center">
+                    <?php
+                        if(isset($_GET['ลูกทุ่ง'])){Show($type="ลูกทุ่ง");}
+                        else if(isset($_GET['T-POP'])){Show($type="T-POP");}
+                        else if(isset($_GET['K-POP'])){Show($type="K-POP");}
+                        else if(isset($_GET['Hiphop'])){Show($type="HIP-HOP");}
+                        else if(isset($_GET['R&B'])){Show($type="RNB");}
+                        else if(isset($_GET['Jazz'])){Show($type="Jazz");}
 
-            <div class="Main">
-                This is test text.
-                <div class="Genre">
-                    <div class="GenreList">Classic</div>
-                    <div class="GenreList">Country</div>
-                    <div class="GenreList">Jazz</div>
-                    <div class="GenreList">R&B</div>
-                    <div class="GenreList">Pop</div>
+                        function Show($types)
+                        {
+                            $json = file_get_contents("data/products.json");
+                            $datas = json_decode($json, true);
+
+                            foreach($datas as $data){
+                                foreach($data as $key => $value){
+                                    if($key == "type"){$type = $value;}
+                                    if($key == "name"){$name = $value;}
+                                    if($key == "description"){$des = $value;}
+                                    if($key == "image"){$image = $value;}
+
+                                }
+                                if($type == $types){
+
+                                    echo "<div class='card col-12 col-sm-6 col-md-4'>";
+                                    echo "  <div class='card-body' style='height:88%;'>";
+                                    echo "      <img class='card-img-top' src='$image' alt='$name'>";
+                                    echo "      <br><br><h4 class='card-title'>$name</h4>";
+                                    echo "      <p class='card-text' style='overflow: hidden; text-overflow: ellipsis;'>$des</p>";
+                                    echo "  </div>";
+                                    echo "  <div class='card-body' style='height:12%;'>";
+                                    echo "      <a href='#' class='btn btn-primary' style='width:100%;'>Product</a>";
+                                    echo "  </div>";
+                                    echo "</div>";
+                                }
+                            }
+                        }
+                    ?>
+                    </div>
                 </div>
             </div>
+        </div>
     </div>
-
+    
     <script src="assets/js/Home.js"></script>
     <script src="assets/js/NavBar.js"></script>
 </body>
-
 </html>
