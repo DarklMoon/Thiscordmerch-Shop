@@ -18,7 +18,7 @@ hr{
     background-color: #5964f2;
     color: white;
     border: 0;
-    transition: 0.2s;
+    transition: opacity 0.2s;
 }
 
 .but:hover{
@@ -32,4 +32,10 @@ hr{
 
 .create:hover, .return:hover{
     color: black;
+}
+
+@media screen and (max-width:768px){
+    .inpEmail, .inpPass, .inpFname, .inpLname, .but{
+        width: 90%!important;
+    }
 }
