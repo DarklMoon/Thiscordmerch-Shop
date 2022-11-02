@@ -38,6 +38,10 @@
   transition: transform .5s;
 }
 
+a {
+  text-decoration: none;
+}
+
 .GenreList:hover {
   transform: rotatez(360deg);
   /* background-size: 18vw 18vw; */
@@ -48,21 +52,6 @@
   /* padding-bottom: ; */
   font-size: 3vw;
 }
-
-/* @media screen and (min-width:1000px) {
-
-  .Genre {
-    max-width: 80%; */
-    /* padding: 5vw; */
-  /* }
-
-  .GenreList {
-    font-size: 2vw;
-    width: 10vw;
-    height: 10vw;
-  }
-
-} */
 
 .Recommend {
   /* padding-bottom: ; */
@@ -75,12 +64,14 @@ img {
 
 @media screen and (max-width:768px) {
 
-  .detail {
-    margin-top: 20px;
-  }
-
-  .GenreList{
+  .GenreList {
     margin-bottom: 20px;
   }
 }
 
+@media screen and (max-width:992px) {
+
+  .detail {
+    margin-top: 20px;
+  }
+}
