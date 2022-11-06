@@ -1,5 +1,5 @@
 * {
-  font-family: 'Mitr', sans-serif;
+  font-family: 'Mitr', 'Noto Sans KR', sans-serif;
 }
 
 .Main {
@@ -12,6 +12,13 @@
   padding: 5vh 0;
   display: flex;
   justify-content: space-around;
+}
+
+hr{
+  border: 0;
+  border-top: 1px solid black;
+  background-color: black;
+  width: 5vw;
 }
 
 .GenreList {
