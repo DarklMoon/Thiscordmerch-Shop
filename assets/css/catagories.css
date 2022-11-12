@@ -2,3 +2,6 @@
 .catagory{height:50px; width:"100%"; padding:0 !important;}
 .catagoryMenu {width:100%; height:100%; border: none; background-color: transparent;}
 #catagoryList {width:100%; padding:0 !important;}
+.btn-primary{
+        background-color: #5964f2 !important;
+}

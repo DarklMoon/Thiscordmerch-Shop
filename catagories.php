@@ -41,7 +41,7 @@
                 <li><a href="#">Credit</a></li>
             </ul>
         </li>
-        <li><a href="#">Account</a></li>
+        <li><a href="login.html">Account</a></li>
         <li><a href="cart.html">Cart</a></li>
         <li><a href="javascript:closeNav()">Close</a></li>
     </ul>
@@ -53,7 +53,7 @@
         <ul class="NavigationBar">
             <li id="Cart"><a href="cart.html">
                     <i class="material-icons">shopping_cart</i>
-            <li id="Account"><a href="#">
+            <li id="Account"><a href="login.html">
                     <i class="material-icons">person</i>
                 </a></li>
             <li id="More"><b><a href="javascript:void(0)">More ▾</a></b>
