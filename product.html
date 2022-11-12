@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="product()">
     <!-- ------------------SideNavBar--------------------- -->
     <ul id="SideNav" class="SideNav" style="width:0;">
         <li id="SideCategories">
@@ -81,7 +81,7 @@
         <div class="product-container">
             <div class="pic-product">
                 <div class="img-container">
-                    <img id="pic-record" src="/assets/images/Product/recordTest.png" alt="name_record">
+                    <img id="pic-record" src="" alt="name_record">
                     <svg id="btn-p" onclick="musicOn()" width="22%" height="23%" viewBox="0 0 130 132" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <ellipse cx="65" cy="66" rx="65" ry="66" fill="#5964F2"/>
                         <path d="M99 66L48.75 98.909L48.75 33.091L99 66Z" fill="white"/>
@@ -89,9 +89,9 @@
                 </div>
             </div>
             <div class="info-product">
-                <h1><b>Record Product Name</b></h1>
+                <h1><b id="name-product">Record Product Name</b></h1>
                 <h4 style="padding-top: 3%;">$ 10.00</h4>
-                <p style="padding-top: 1%;"><b>Description:</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem blanditiis explicabo laudantium libero incidunt consectetur qui, cupiditate consequuntur voluptatum quisquam et eius eveniet, nam eos tempore, officiis officia quae unde?</p>
+                <p style="padding-top: 1%;"><b>Description:&nbsp;&nbsp;</b><span id="content-des"></span></p>
                 <div class="addProduct-container">
                     <button onclick="addProduct()" id="btn-addProduct">Add to Cart</button>
                 </div>
@@ -102,7 +102,7 @@
     <!-- ------------------Product---------------------- -->
     
 
-    <script src="assets/js/product.js"></script>
-    <script src="assets/js/NavBar.js"></script>
+    <script  type="text/javascript" src="assets/js/product.js"></script>
+    <script  type="text/javascript" src="assets/js/NavBar.js"></script>
 </body>
 </html>

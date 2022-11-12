@@ -152,7 +152,6 @@
                         {
                             $json = file_get_contents("data/products.json");
                             $datas = json_decode($json, true);
-
                             foreach($datas as $data){
                                 foreach($data as $key => $value){
                                     if($key == "type"){$type = $value;}
@@ -162,6 +161,8 @@
 
                                 }
                                 if($type == $types){
+                                    $path = array($image, $name, $des);
+                                    $path = json_encode($path);
                                     echo "<div class='card col-12 col-sm-6 col-md-4'>";
                                     echo "  <div class='card-body' style='height:85%;'>";
                                     echo "      <img class='card-img-top' src='$image' alt='$name' style='width:32vh;height:32vh;'>";
@@ -169,7 +170,7 @@
                                     echo "      <p class='card-text' style='overflow: hidden; text-overflow: ellipsis;'>$des</p>";
                                     echo "  </div>";
                                     echo "  <div class='card-body' style='height:15%;'>";
-                                    echo "      <a href='#' class='btn btn-primary' style='width:100%;'>Product</a>";
+                                    echo "      <a href='product.html' onclick='fromCatago($path)' class='btn btn-primary' style='width:100%;'>Product</a>";
                                     echo "  </div>";
                                     echo "</div>";
                                 }
@@ -181,7 +182,7 @@
             </div>
         </div>
     </div>
-    
+    <script src="assets/js/product.js"></script>
     <script src="assets/js/Home.js"></script>
     <script src="assets/js/NavBar.js"></script>
 </body>
