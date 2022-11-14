@@ -158,10 +158,11 @@
                                     if($key == "name"){$name = $value;}
                                     if($key == "description"){$des = $value;}
                                     if($key == "image"){$image = $value;}
+                                    if($key == "sound"){$sound = $value;}
 
                                 }
                                 if($type == $types){
-                                    $path = array($image, $name, $des);
+                                    $path = array($image, $name, $des, $sound);
                                     $path = json_encode($path);
                                     echo "<div class='card col-12 col-sm-6 col-md-4'>";
                                     echo "  <div class='card-body' style='height:85%;'>";

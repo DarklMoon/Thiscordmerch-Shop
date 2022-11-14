@@ -17,7 +17,8 @@
 }
 
 /* #pic-record{ 
-    max-width: 70%;
+    width: 25vw;
+    max-height: 55vh;
     margin-left: 15%;
 } */
 
@@ -28,8 +29,8 @@
 
 #btn-p{
     position: absolute;
-    top: 70%;
-    right: 10%;
+    top: 85%;
+    right: 15%;
     transition: fill .5s;
 }
 

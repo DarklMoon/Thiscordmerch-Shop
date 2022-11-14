@@ -1,7 +1,3 @@
-function musicOn() {
-//   console.log("Test0");
-}
-
 function addProduct(){
     // console.log("Test1");
     document.getElementById("btn-addProduct").style.border = "none";
@@ -16,7 +12,8 @@ function fromCatago(path){
     data_Product = {
         image : path[0],
         name : path[1],
-        des : path[2]
+        des : path[2],
+        sound : path[3]
     };
     localStorage.setItem("data_Product", JSON.stringify(data_Product));
 }
@@ -30,4 +27,15 @@ function product(){
     picture.src = data.image;
     name_p.innerHTML = data.name;
     content_des.innerHTML = data.des;
+
+
+}
+
+function musicOn() {
+    let datas = localStorage.getItem("data_Product");
+    let data = JSON.parse(datas);
+    let audio = new Audio(data.sound);
+
+    audio.play();
+
 }
