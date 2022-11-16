@@ -18,7 +18,7 @@
     <!--Import Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,7 +35,6 @@
                 <li><a href="catagories.php?Jazz=Jazz">Jazz</a></li>
             </ul>
         </li>
-        <li><a href="#">All</a></li>
         <li id="SideMore"><nobr><a href="javascript:void(0)">More ▾</a></nobr>
             <ul class="sideDropdown" id="SideMoreDrop">
                 <li><a href="#">Credit</a></li>
@@ -61,7 +60,6 @@
                     <li><a href="#">Credit</a></li>
                 </ul>
             </li>
-            <li id="ShopAll"><b><a href="#ShopAll">All</a></b></li>
             <li id="Categories"><b><a href="javascript:void(0)">Categories ▾</a></b>
                 <ul class="dropdown" id="categoriesDrop">
                     <li><a href="catagories.php?Luktung=Luktung">Luktung</a></li>
@@ -162,11 +160,11 @@
 
                                 }
                                 if($type == $types){
-                                    $path = array($image, $name, $des, $sound);
+                                    $path = array($image,$name,$des,$sound);
                                     $path = json_encode($path);
                                     echo "<div class='card col-12 col-sm-6 col-md-4'>";
                                     echo "  <div class='card-body' style='height:85%;'>";
-                                    echo "      <img class='card-img-top' src='$image' alt='$name' style='width:32vh;height:32vh;'>";
+                                    echo "      <img class='card-img-top' src='$image' alt='$name' style='width:75%;'>";
                                     echo "      <br><br><h4 class='card-title'>$name</h4>";
                                     echo "      <p class='card-text' style='overflow: hidden; text-overflow: ellipsis;'>$des</p>";
                                     echo "  </div>";
