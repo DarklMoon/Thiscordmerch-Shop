@@ -1,5 +1,4 @@
 function addProduct(){
-    // console.log("Test1");
     document.getElementById("btn-addProduct").style.border = "none";
     document.getElementById("btn-addProduct").style.outline = "none";
 }
@@ -8,7 +7,6 @@ let data_Product = new Object();
 
 function fromCatago(path){
     localStorage.removeItem("data_Product");
-    console.log(path);
     data_Product = {
         image : path[0],
         name : path[1],
@@ -28,14 +26,23 @@ function product(){
     name_p.innerHTML = data.name;
     content_des.innerHTML = data.des;
 
-
 }
 
+var datas = localStorage.getItem("data_Product");
+var data = JSON.parse(datas);
+var audio = new Audio(data.sound);
+var btn_stop = document.getElementById("btn-p");
+
 function musicOn() {
-    let datas = localStorage.getItem("data_Product");
-    let data = JSON.parse(datas);
-    let audio = new Audio(data.sound);
-
+    btn_stop.innerHTML = ' <ellipse cx="65" cy="66" rx="65" ry="66" fill="#5964F2" /> <rect x="71" y="45" width="12" height="43" fill="white" /> <rect x="47" y="45" width="12" height="43" fill="white" /> '  
     audio.play();
+    audio.volume = 0.2;
+    btn_stop.onclick = function() {musicOff();}
+}
 
+function musicOff(){
+    audio.pause();
+    audio.currentTime = 0;
+    btn_stop.onclick = function() {musicOn();}
+    btn_stop.innerHTML = '<ellipse cx="65" cy="66" rx="65" ry="66" fill="#5964F2"/> <path d="M99 66L48.75 98.909L48.75 33.091L99 66Z" fill="white"/>';
 }

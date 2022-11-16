@@ -16,11 +16,11 @@
     display: inline-block;
 }
 
-/* #pic-record{ 
-    width: 25vw;
-    max-height: 55vh;
+#pic-record{ 
+    width:30vw;
+    height:55vh;
     margin-left: 15%;
-} */
+}
 
 .info-product{  
     padding: 10% 15% 10% 5%;
@@ -30,7 +30,7 @@
 #btn-p{
     position: absolute;
     top: 85%;
-    right: 15%;
+    right: -25%;
     transition: fill .5s;
 }
 
@@ -64,4 +64,13 @@
         grid-template-columns: auto;
         row-gap: 2%;
     }   
+    #pic-record{
+        margin-left: 15vw;
+        width: 55vw;
+    }
+
+    #btn-p{
+        position: absolute;
+        right: -15%;
+    }
 }
