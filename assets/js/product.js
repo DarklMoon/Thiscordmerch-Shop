@@ -1,8 +1,3 @@
-function addProduct(){
-    document.getElementById("btn-addProduct").style.border = "none";
-    document.getElementById("btn-addProduct").style.outline = "none";
-}
-
 let data_Product = new Object();
 
 function fromCatago(path){
