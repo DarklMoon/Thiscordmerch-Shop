@@ -81,12 +81,12 @@
             <h1 class="fw-bold">Login</h1>
             <hr class="hrOne mx-auto">
             <form class="form" action="">
-                <input type="text" class="inpEmail rounded-0 mt-4 mb-2 w-25 p-2" name="email" placeholder="Email"><br>
-                <input type="password" class="inpPass rounded-0 mb-2 w-25 p-2" name="password" placeholder="Password"><br>
-                <button class="but rounded-0 mb-4 w-25 p-2">Sign In</button>
+                <input type="text" class="inpEmail rounded-0 mt-4 mb-2 w-25 p-2" id="Email" name="email" placeholder="Email"><br>
+                <input type="password" class="inpPass rounded-0 mb-2 w-25 p-2" id="Pass" name="password" placeholder="Password"><br>
+                <button type="button" id="btn" class="but rounded-0 mb-4 w-25 p-2" onclick="checkIn()">Sign In</button>
             </form>
             <div class="fw-normal">
-                <a href="createAcc.html" class="create">Create Account</a>
+                <a href="createAcc.php" class="create">Create Account</a>
             </div>
             <hr class="hrTwo mx-auto my-0">
             <div class="fw-normal">
@@ -129,5 +129,6 @@
 
     <script src="assets/js/Home.js"></script>
     <script src="assets/js/NavBar.js"></script>
+    <script src="assets/js/login.js"></script>
 </body>
 </html>
