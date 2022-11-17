@@ -4,6 +4,10 @@
 
 * {font-family: 'Mitr', 'Noto Sans KR', sans-serif;}
 
+#main{
+    background-color: #DEE3E2;
+}
+
 hr{
     border: 0;
     border-top: 1px solid black;
@@ -18,7 +22,7 @@ hr{
 }
 
 .but{
-    background-color: #5964f2;
+    background-color: #116979;
     color: white;
     border: 0;
     transition: opacity 0.2s;
