@@ -18,7 +18,9 @@
     <!--Import Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--Icon-->
+    <link rel="icon" href="assets/images/Home/record.png">
 </head>
 
 <body>
@@ -48,7 +50,7 @@
 
     <div id="main">
         <!-- ------------------NavBar---------------------- -->
-        <div style="background-color: lightgray;">
+        <div style="background-color: #DE7119;">
         <ul class="NavigationBar">
             <li id="Cart"><a href="cart.html">
                     <i class="material-icons">shopping_cart</i>
@@ -71,7 +73,7 @@
                 </ul>
             </li>
             <li id="Menu"><a href="javascript:void(0)" onclick="openNav()"><i class="material-icons">&#xe5d2;</i></a></li>
-            <li id="Icon"><a href="index.html">Thiscordmerch</a></li>
+            <li id="Icon"><a href="index.html"><img id="Logo" src="assets/images/Home/gramophone.png" style="width:30px; height:30px; margin-right:10px;"><b>Thiscordmerch</b></a></li>
         </ul>
         </div>
         <!-- ------------------End--NavBar----------------- -->
@@ -84,7 +86,7 @@
                 <div class="row mx-auto text-center">
                     <?php
                     if(isset($_GET['Luktung'])){
-                        echo "<div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Luktung' value='Luktung' style='background-color:black;color:white;font-size:20px;'></div>
+                        echo "<div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Luktung' value='Luktung' style='background-color:#116979;color:white;font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='T-POP' value='T-POP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='K-POP' value='K-POP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='HIP-HOP' value='HIP-HOP' style='font-size:20px;'></div>
@@ -92,7 +94,7 @@
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Jazz' value='Jazz' style='font-size:20px;'></div>";}
                     else if(isset($_GET['T-POP'])){
                         echo "<div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Luktung' value='Luktung' style='font-size:20px;'></div>
-                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='T-POP' value='T-POP' style='background-color:black;color:white;font-size:20px;'></div>
+                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='T-POP' value='T-POP' style='background-color:#116979;color:white;font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='K-POP' value='K-POP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='HIP-HOP' value='HIP-HOP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='R&B' value='R&B' style='font-size:20px;'></div>
@@ -100,7 +102,7 @@
                     else if(isset($_GET['K-POP'])){
                         echo "<div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Luktung' value='Luktung' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='T-POP' value='T-POP' style='font-size:20px;'></div>
-                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='K-POP' value='K-POP' style='background-color:black;color:white;font-size:20px;'></div>
+                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='K-POP' value='K-POP' style='background-color:#116979;color:white;font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='HIP-HOP' value='HIP-HOP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='R&B' value='R&B' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Jazz' value='Jazz' style='font-size:20px;'></div>";}
@@ -108,7 +110,7 @@
                         echo "<div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Luktung' value='Luktung' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='T-POP' value='T-POP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='K-POP' value='K-POP' style='font-size:20px;'></div>
-                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='HIP-HOP' value='HIP-HOP' style='background-color:black;color:white;font-size:20px;'></div>
+                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='HIP-HOP' value='HIP-HOP' style='background-color:#116979;color:white;font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='R&B' value='R&B' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Jazz' value='Jazz' style='font-size:20px;'></div>";}
                     else if(isset($_GET['R&B'])){
@@ -116,7 +118,7 @@
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='T-POP' value='T-POP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='K-POP' value='K-POP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='HIP-HOP' value='HIP-HOP' style='font-size:20px;'></div>
-                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='R&B' value='R&B' style='background-color:black;color:white;font-size:20px;'></div>
+                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='R&B' value='R&B' style='background-color:#116979;color:white;font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Jazz' value='Jazz' style='font-size:20px;'></div>";}
                     else if(isset($_GET['Jazz'])){
                         echo "<div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Luktung' value='Luktung' style='font-size:20px;'></div>
@@ -124,7 +126,7 @@
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='K-POP' value='K-POP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='HIP-HOP' value='HIP-HOP' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='R&B' value='R&B' style='font-size:20px;'></div>
-                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Jazz' value='Jazz' style='background-color:black;color:white;font-size:20px;'></div>";}
+                        <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Jazz' value='Jazz' style='background-color:#116979;color:white;font-size:20px;'></div>";}
                     else{
                         echo "<div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='Luktung' value='Luktung' style='font-size:20px;'></div>
                         <div class='catagory col-4 col-md-2'><input type='submit' class='catagoryMenu' name='T-POP' value='T-POP' style='font-size:20px;'></div>
@@ -169,7 +171,7 @@
                                     echo "      <p class='card-text' style='overflow: hidden; text-overflow: ellipsis;'>$des</p>";
                                     echo "  </div>";
                                     echo "  <div class='card-body' style='height:15%;'>";
-                                    echo "      <a href='product.html' onclick='fromCatago($path)' class='btn btn-primary' style='width:100%;'>Product</a>";
+                                    echo "      <a href='product.html' onclick='fromCatago($path)' class='btn' style='color:white;width:100%;background-color:#116979;'>Product</a>";
                                     echo "  </div>";
                                     echo "</div>";
                                 }
@@ -180,6 +182,36 @@
                 </div>
             </div>
         </div>
+
+        <footer class="p-4" style="background-color:#18B0B0;">
+            <div class="row mx-auto">
+                <div class="col-12 col-sm-12 col-md-5">
+                    <div style="display: flex">
+                        <img src="assets/images/Home/gramophone.png" style="width:30px; height:30px; margin-right:10px;">
+                        <h3><b>ThiscordMerch</b></h3>
+                    </div>
+                    <p style="color:#353535;">This website is part of Web Technology course.
+                    Semester 1, Academic Year 2022.<br>School of Information Technology
+                    <br>King Mongkut's Institute of Technology Ladkrabang</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div><h5><b>Catagories</b></h5></div>
+                    <div><a href="catagories.php?Luktung=Luktung" style="text-decoration: none; color:#353535;">Luktung</a></div>
+                    <div><a href="catagories.php?T-POP=T-POP" style="text-decoration: none; color:#353535;">T-POP</a></div>
+                    <div><a href="catagories.php?K-POP=K-POP" style="text-decoration: none; color:#353535;">K-POP</a></div>
+                    <div><a href="catagories.php?HIP-HOP=HIP-HOP" style="text-decoration: none; color:#353535;">Hip hop</a></div>
+                    <div><a href="catagories.php?R%26B=R%26B" style="text-decoration: none; color:#353535;">R&B</a></div>
+                    <div><a href="catagories.php?Jazz=Jazz" style="text-decoration: none; color:#353535;">Jazz</a></div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div><h5><b>More</b></h5></div>
+                    <div><a href="catagories.php?Luktung=Luktung" style="text-decoration: none; color:#353535;">Credit</a></div>
+                </div>
+            </div>
+            <div style="text-align: center; padding-top:30px;">
+                <p style="margin:0;">© 2022 ThiscordMerch</p>
+            </div>
+        </footer>
     </div>
     <script src="assets/js/product.js"></script>
     <script src="assets/js/Home.js"></script>
