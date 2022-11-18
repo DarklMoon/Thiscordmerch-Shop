@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="assets/css/Home.css">
     <link rel="stylesheet" href="assets/css/catagories.css">
     <!--Import Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <!--Import Google Icon-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import Font-->
@@ -164,7 +166,7 @@
                                 if($type == $types){
                                     $path = array($image,$name,$des,$sound);
                                     $path = json_encode($path);
-                                    echo "<div class='card col-12 col-sm-6 col-md-4'>";
+                                    echo "<div class='card col-12 col-sm-6 col-md-4' style='background-color:#f2f2f5;'> ";
                                     echo "  <div class='card-body' style='height:85%;'>";
                                     echo "      <img class='card-img-top' src='$image' alt='$name' style='width:75%;'>";
                                     echo "      <br><br><h4 class='card-title'>$name</h4>";
