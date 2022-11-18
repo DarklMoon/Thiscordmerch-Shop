@@ -12,16 +12,16 @@ function Create() {
     } else{
         toarr = JSON.parse(localStorage.getItem("userData"))
     }
-    console.log(toarr)
+    // console.log(toarr)
     var userData = {
         "fullname" : inpFname.value ,
         "lastname" : inpLname.value ,
         "email" : inpEmail.value ,
         "pass" : inpPass.value ,
     }
-    console.log(userData)
+    // console.log(userData)
 
     toarr.push(userData)
     localStorage.setItem("userData", JSON.stringify(toarr))
-    console.log(toarr)
+    // console.log(toarr)
 }
