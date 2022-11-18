@@ -43,9 +43,10 @@
     justify-content: end;
 }
 
-.addProduct-container button{
+.addProduct-container a{
     background-color: #116979;
     color: white;
+    text-decoration:none;
     margin: 10px 0 0 0;
     min-width: 155px;
     min-height: 56px;
@@ -55,8 +56,10 @@
     outline: none;
 }
 
-.addProduct-container button:hover{
+.addProduct-container a:hover{
     background-color: #1999b0;
+    color: white;;
+    text-decoration:none;
 }
 
 @media only screen and (max-width: 600px){
