@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiscordmerch Shop</title>
     <link rel="stylesheet" href="assets/css/NavBar.css">
-    <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/cart.css?v=1">
     <!--Import Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -112,12 +112,12 @@
                     <div class="cartBelow-right">
                         <div class="cartTotal-container">
                             <p>
-                                Total : <span class="cart-total">$ 100.00</span>
+                                Total : $<span id="cart-total">100.00</span>
                             </p>    
                         </div>
                         <div class="btnProduct-container">
-                            <button onclick="buyProduct()" id="btn-BuyProduct">Check Out</button><br>
-                            <button onclick="UpdateCart()" id="btn-UpdateCart">Update Cart</button>
+                            <button onclick="updateCart()" id="btn-UpdateCart">Update Cart</button><br>
+                            <button onclick="buyProduct()" id="btn-BuyProduct">Check Out</button>
                         </div>
                     </div>
                 </div>

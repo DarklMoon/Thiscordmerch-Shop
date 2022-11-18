@@ -18,7 +18,10 @@ function getProduct(){
     let orderProduct = document.getElementById("order-product");
     let cart_Container = document.getElementById("cart-container");
     let arrayCart = JSON.parse(localStorage.getItem("data_Cart"));
+    let totalCost = document.getElementById("cart-total");
     let count = {};
+    let num = 0;
+    let allCost = 0;
     if (arrayCart != null){
 
         arrayCart.forEach(element => {
@@ -30,21 +33,29 @@ function getProduct(){
 
         Object.entries(count).forEach((element) => {
             let eachProduct = JSON.parse(element[0]);
-            console.log(eachProduct.image);
-            console.log(element[1]);
-            console.log(element[1] * 10);
+            // console.log(eachProduct.image);
+            // console.log(element[1]);
+            // console.log(element[1] * 10);
+            orderProduct.innerHTML += `<div class="product">\
+                                <img id="p1" src="${
+                                  eachProduct.image
+                                }" alt="product">\
+                                <h5 class="record-name">${
+                                  eachProduct.name
+                                }</h5>\
+                                <div class="product-num">\
+                                    <span id="btn-minus" onclick="buttonMinus(${num})" style="cursor: default;">-</span>\
+                                    <input class="num-p" id="num-p-${num}" type="text" value="${
+              element[1]
+            }">\
+                                    <span id="btn-plus" onclick="buttonPlus(${num})" style="cursor: default;">+</span>\
+                                </div><br>\
+                                <h5>$${element[1] * 10}.00</h5>\
+                                <hr class="hr-line1">\
+                                </div>`;
+            allCost += element[1]*10;
+            num += 1;                                                           
         });
-        
-        orderProduct.innerHTML = `<div class="product">\
-                            <img id="p1" src="${arrayCart[0].image}" alt="product">\
-                            <h5 class="record-name">${arrayCart[0].name}</h5>\
-                            <div class="product-num">\
-                                <span class="btn-minus">-</span>\
-                                <input id="num-p" type="text" value="1">\
-                                <span class="btn-plus">+</span>\
-                            </div><br>\
-                            <h5>$10.00</h5>\
-                            </div>`;
     }
     else{
         cart_Container.innerHTML = `<div class="header">\
@@ -58,5 +69,33 @@ function getProduct(){
                                         </center>
                                     </div>`;
     }
+    totalCost.innerHTML = `${allCost}.00`;
+}
+
+function buttonMinus(num){
+    let amount_Product = document.getElementById(`num-p-${num}`);
+    if (amount_Product.value > 0){
+        amount_Product.value = Number(amount_Product.value) - 1;
+    }
+}
+
+function buttonPlus(num){
+    let amount_Product = document.getElementById(`num-p-${num}`);
+    amount_Product.value = Number(amount_Product.value) + 1;
+    
+}
+
+function updateCart(){
+    // console.log(localStorage.getItem("data_Cart"));
+    let arrayCart = JSON.parse(localStorage.getItem("data_Cart"));
+    arrayCart.forEach((element) => {
+      console.log(element);     
+    });
+    // localStorage.setItem("");
+
+    // location.reload();
+}
+
+function buyProduct(){
 
 }
