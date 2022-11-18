@@ -1,0 +1,9 @@
+* {font-family: 'Mitr', 'Noto Sans KR', sans-serif;}
+.creditMain{text-align: center;}
+hr{
+    border: 1px solid black;
+    width: 40vw;
+    border-width: 0;
+    color: black;
+    background-color:black;
+}
