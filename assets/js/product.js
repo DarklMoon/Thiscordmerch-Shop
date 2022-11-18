@@ -6,7 +6,8 @@ function fromCatago(path){
         image : path[0],
         name : path[1],
         des : path[2],
-        sound : path[3]
+        sound : path[3],
+        artist: path[4]
     };
     localStorage.setItem("data_Product", JSON.stringify(data_Product));
 }
@@ -15,12 +16,13 @@ function product(){
     let datas = localStorage.getItem("data_Product");
     let picture = document.getElementById("pic-record");
     let name_p = document.getElementById("name-product");
+    let content_artist = document.getElementById("content-artist");
     let content_des = document.getElementById("content-des");
     let data = JSON.parse(datas);
     picture.src = data.image;
     name_p.innerHTML = data.name;
+    content_artist.innerHTML = data.artist;
     content_des.innerHTML = data.des;
-
 }
 
 var datas = localStorage.getItem("data_Product");
