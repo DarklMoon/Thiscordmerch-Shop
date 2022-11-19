@@ -19,7 +19,7 @@ function product(){
     let content_artist = document.getElementById("content-artist");
     let content_des = document.getElementById("content-des");
     let data = JSON.parse(datas);
-    picture.src = data.image;
+    picture.src = data.image;   
     name_p.innerHTML = data.name;
     content_artist.innerHTML = data.artist;
     content_des.innerHTML = data.des;
