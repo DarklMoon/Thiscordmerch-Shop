@@ -81,7 +81,7 @@
         <!-- ------------------End--NavBar----------------- -->
 
         <div class="CategoriesMain">
-            <h2><b>Catagories</b></h2>
+            <h2><b>Categories</b></h2>
             <br>
             <div>
                 <form class="catagoryForm" action="catagories.php" method="get">
@@ -167,7 +167,8 @@
                                 if($type == $types){
                                     $path = array($image,$name,$des,$sound,$artist);
                                     $path = json_encode($path);
-                                    echo "<div class='card col-12 col-sm-6 col-md-4' style='background-color:#f2f2f5;'> ";
+                                    echo "<div class='col-12 col-sm-6 col-md-4 mb-2' style='background-color:#f2f2f5;'> ";
+                                    echo "<div class='card rounded-0 h-100'>";
                                     echo "  <div class='card-body' style='height:85%;'>";
                                     echo "      <img class='card-img-top' src='$image' alt='$name' style='width:75%;'>";
                                     echo "      <br><br><h4 class='card-title'>$name</h4>";
@@ -176,6 +177,7 @@
                                     echo "  <div class='card-body' style='height:15%;'>";
                                     echo "      <a href='product.html' onclick='fromCatago($path)' class='btn' style='color:white;width:100%;background-color:#116979;'>Product</a>";
                                     echo "  </div>";
+                                    echo "</div>";
                                     echo "</div>";
                                 }
                             }
