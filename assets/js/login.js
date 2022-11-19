@@ -45,5 +45,6 @@ if (localStorage.getItem("Account")) {
 function checkOut() {
     // alert("Bye")
     localStorage.removeItem("Account")
+    localStorage.removeItem("data_Cart")
     location.reload();
 }
