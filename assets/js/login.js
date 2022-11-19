@@ -12,15 +12,16 @@ function checkIn() {
         for (let i = 0; i < getData.length; i++) {
             if (inEmail.value == getData[i].email && inPass.value == getData[i].pass) {
                 // alert("Hi")
-                localStorage.setItem("Account", getData[i].fullname)
+                localStorage.setItem("Account", getData[i].firstname)
                 found = true
                 location.reload();
                 break
             }
         }
         if (!found) {
-            alert("Incorrect Email or Password")
+            document.getElementById("Err").innerText = 'Incorrect Email or Password.';
         }
+        else {document.getElementById("Err").innerText = ''}
     }
 
 }

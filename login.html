@@ -83,8 +83,9 @@
         <div class="login text-center m-5">
             <h1 class="fw-bold">Login</h1>
             <hr class="hrOne mx-auto">
-            <form class="form" action="">
-                <input type="text" class="inpEmail rounded-0 mt-4 mb-2 w-25 p-2" name="email" id="Email" placeholder="Email"><br>
+            <form class="form mt-4" action="">
+                <p style="color:red; margin:0;" id="Err"></p>
+                <input type="text" class="inpEmail rounded-0 mb-2 w-25 p-2" name="email" id="Email" placeholder="Email"><br>
                 <input type="password" class="inpPass rounded-0 mb-2 w-25 p-2" name="password"  id="Pass" placeholder="Password"><br>
                 <button type="button" class="but rounded-0 mb-4 w-25 p-2" onclick="checkIn()">Sign In</button>
             </form>
@@ -121,7 +122,7 @@
                 <div class="col-6 col-sm-6 col-md-3">
                     <div><h5><b>More</b></h5></div>
                     <div><a href="credit.html" style="text-decoration: none; color:#353535;">Credit</a></div>
-                    <div><a href="#" style="text-decoration: none; color:#353535;">Account</a></div>
+                    <div><a href="login.html" style="text-decoration: none; color:#353535;">Account</a></div>
                     <div><a href="cart.html" style="text-decoration: none; color:#353535;">Cart</a></div>
                 </div>
             </div>

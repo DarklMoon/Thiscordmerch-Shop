@@ -49,9 +49,6 @@
     </ul>
     <!-- ---------------End--SideNavBar------------------- -->
 
-    <?php
-
-    ?>
     <div id="main">
         <!-- ------------------NavBar---------------------- -->
         <div style="background-color: #DE7119;">
@@ -85,28 +82,29 @@
         <div class="login text-center m-5">
             <h1 class="fw-bold">Create Account</h1>
             <hr class="hrOne mx-auto">
-            <form class="form" method="post">
+            <form class="form mt-4" method="post">
+                <p style="color:red; margin:0;" id="ErrFName"></p>
                 <input 
                 type="text"
-                class="inpFname rounded-0 mt-4 mb-2 w-25 p-2"
+                class="inpFname rounded-0 mb-2 w-25 p-2"
                 id="fname"
                 name="fname" 
                 placeholder="First Name"><br>
-
+                <p style="color:red; margin:0;" id="ErrLName"></p>
                 <input 
                 type="text" 
                 class="inpLname rounded-0 mb-2 w-25 p-2" 
                 id="lname"
                 name="lname" 
                 placeholder="Last Name"><br>
-
+                <p style="color:red; margin:0;" id="ErrEmail"></p>
                 <input 
                 type="text" 
                 class="inpEmail rounded-0 mb-2 w-25 p-2" 
                 id="email"
                 name="email" 
                 placeholder="Email"><br>
-
+                <p style="color:red; margin:0;" id="ErrPass"></p>
                 <input 
                 type="password" 
                 class="inpPass rounded-0 mb-2 w-25 p-2" 
@@ -156,7 +154,7 @@
                 <div class="col-6 col-sm-6 col-md-3">
                     <div><h5><b>More</b></h5></div>
                     <div><a href="credit.html" style="text-decoration: none; color:#353535;">Credit</a></div>
-                    <div><a href="#" style="text-decoration: none; color:#353535;">Account</a></div>
+                    <div><a href="login.html" style="text-decoration: none; color:#353535;">Account</a></div>
                     <div><a href="cart.html" style="text-decoration: none; color:#353535;">Cart</a></div>
                 </div>
             </div>

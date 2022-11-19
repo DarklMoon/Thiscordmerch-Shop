@@ -211,7 +211,7 @@
                 <div class="col-6 col-sm-6 col-md-3">
                     <div><h5><b>More</b></h5></div>
                     <div><a href="credit.html" style="text-decoration: none; color:#353535;">Credit</a></div>
-                    <div><a href="#" style="text-decoration: none; color:#353535;">Account</a></div>
+                    <div><a href="login.html" style="text-decoration: none; color:#353535;">Account</a></div>
                     <div><a href="cart.html" style="text-decoration: none; color:#353535;">Cart</a></div>
                 </div>
             </div>
