@@ -112,8 +112,8 @@
     },
     {
         "id":"16", "type":"K-POP",
-        "name":"We don't talk together", "artist":"Heize",   
-        "description":"I know 우린 사랑해서 We don't talk together 여전히 난 너인걸 Why don't you 인정하기 싫은걸 Why don't you 보낼 수가 없는걸",
+        "name":"We don’t talk together", "artist":"Heize",   
+        "description":"I know 우린 사랑해서 We don’t talk together 여전히 난 너인걸 Why don’t you 인정하기 싫은걸 Why don’t you 보낼 수가 없는걸",
         "image":"pic/K-POP/we don_t talk together.jpg",
         "sound":"song/K-POP/we don_t talk together.mp3"
     },
@@ -148,7 +148,7 @@
     {
         "id":"21", "type":"K-POP",
         "name":"Beautiful", "artist":"Crush",   
-        "description":"It's a beautiful life, beautiful day 미치도록 널 사랑했었던 날 Beautiful life, beautiful day 너를 잃고 싶지 않아 Beautiful my love Beautiful your heart It's a beautiful life",
+        "description":"It’s a beautiful life, beautiful day 미치도록 널 사랑했었던 날 Beautiful life, beautiful day 너를 잃고 싶지 않아 Beautiful my love Beautiful your heart It’s a beautiful life",
         "image":"pic/K-POP/beautiful.jpg",
         "sound":"song/K-POP/beautiful.mp3"
     },
@@ -210,7 +210,7 @@
     {
         "id":"29", "type":"RNB",
         "name":"To be with you", "artist":"Jose James",   
-        "description":"You're everything I wanted You're everything I've got You're all the love I needed Pray that it never stops Oh first it felt like dreaming Oh but our love don't stop Know every time you need me Oh I'll be there to be with you",
+        "description":"You’re everything I wanted You’re everything I’ve got You’re all the love I needed Pray that it never stops Oh first it felt like dreaming Oh but our love don’t stop Know every time you need me Oh I’ll be there to be with you",
         "image":"pic/RNB/to be with you.jpg",
         "sound":"song/RNB/to be with you.mp3"
     },
@@ -231,14 +231,14 @@
     {
         "id":"32", "type":"RNB",
         "name":"Is magic gone", "artist":"FKJ",   
-        "description":"I've been waiting on for too long I have to tell you now all my thoughts Our flame is only getting bloomed Is magic gone? Is magic gone? Is magic gone? Is magic gone?",
+        "description":"I’ve been waiting on for too long I have to tell you now all my thoughts Our flame is only getting bloomed Is magic gone? Is magic gone? Is magic gone? Is magic gone?",
         "image":"pic/RNB/is magic gone.jpg",
         "sound":"song/RNB/is magic gone.mp3"
     },
     {
         "id":"33", "type":"RNB",
         "name":"Honesty", "artist":"Pink Sweat",   
-        "description":"Would you share your flaws with me? Let me know I told her, Thinking is all wrong Love will happen when it wants I know it hurts sometimes, but don't let it go",
+        "description":"Would you share your flaws with me? Let me know I told her, Thinking is all wrong Love will happen when it wants I know it hurts sometimes, but don’t let it go",
         "image":"pic/RNB/honesty.jpg",
         "sound":"song/RNB/honesty.mp3"
     },
@@ -269,14 +269,14 @@
     {
         "id":"37", "type":"Jazz",
         "name":"Home", "artist":"Michael Bublé",   
-        "description":"Let me go home I'm just too far From where you are I wanna come home",
+        "description":"Let me go home I’m just too far From where you are I wanna come home",
         "image":"pic/Jazz/Home.jpg",
         "sound":"song/Jazz/Home.mp3"
     },
     {
         "id":"38", "type":"Jazz",
         "name":"Greatest love of all", "artist":"Whitney houston",   
-        "description":"I decided long ago Never to walk in anyone's shadows If I fail, if I succeed At least I'll live as I believe No matter what they take from me They can't take away my dignity",
+        "description":"I decided long ago Never to walk in anyone’s shadows If I fail, if I succeed At least I’ll live as I believe No matter what they take from me They can’t take away my dignity",
         "image":"pic/Jazz/Greatest love of all.jpg",
         "sound":"song/Jazz/Greatest love of all.mp3"
     },
@@ -289,8 +289,8 @@
     },
     {
         "id":"40", "type":"Jazz",
-        "name":"Don't know why", "artist":"Norah Jones",   
-        "description":"My heart is drenched in wine But you'll be on my mind forever",
+        "name":"Don’t know why", "artist":"Norah Jones",   
+        "description":"My heart is drenched in wine But you’ll be on my mind forever",
         "image":"pic/Jazz/Don_t know why.jpg",
         "sound":"song/Jazz/Don_t know why.mp3"
     },
@@ -304,7 +304,7 @@
     {
         "id":"42", "type":"Jazz",
         "name":"Careless whisper", "artist":"George Michael",   
-        "description":"I'm never gonna dance again Guilty feet have got no rhythm Though it's easy to pretend I know you're not a fool",
+        "description":"I’m never gonna dance again Guilty feet have got no rhythm Though it’s easy to pretend I know you’re not a fool",
         "image":"pic/Jazz/Careless whisper.jpg",
         "sound":"song/Jazz/Careless whisper.mp3"
     }

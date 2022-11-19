@@ -13,9 +13,10 @@ html, body {
   padding:0;
   margin:0;
   overflow: visible;
+  background-color: #edf2f1;
 }
 
-#main{width:100%; overflow-x:hidden; transition: margin-left .5s;}
+#main{width:100%; overflow-x:hidden; transition: margin-left .5s; background-color: #edf2f1;}
 #Icon{transition: margin-left .5s;}
 
 .NavigationBar{
@@ -46,14 +47,12 @@ html, body {
 #Icon:hover{background-color: transparent;}
 #Icon:hover a{color: black;}
 
-.dropdown li:hover{background-color: grey;}
-
 .dropdown{
   padding: 0;
   list-style: none;
   display: none;
   float:left;
-  background: white;
+  background: #f7ddc8;
   z-index: 1;
 }
 .dropdown li{
@@ -67,7 +66,7 @@ html, body {
 .dropdown li div a{width:80%;}
 .dropdown li div span{width:20% ;float:right; padding: 1vh 0vw;}
 
-.dropdown li a:hover{background-color: grey;}
+.dropdown li a:hover{background-color: #DE7119;}
 
 #categoriesDrop, #moreDrop{min-width: 12vw; position: absolute;}
 
@@ -80,10 +79,15 @@ html, body {
   #More, #ShopAll, #Categories, #New{display: none;}
   #Menu {display: block;}
   #Icon {position: absolute; left: 50%;transform: translate(-50%, 0%);}
+  #Menu:hover, #Account:hover, #Cart:hover {background: transparent; color:black;}
 }
 
 @media screen and (max-width:600px) {
   #Account{display: none;}
+}
+
+@media screen and (max-width:380px) {
+  #Logo{display: none;}
 }
 
 .SideNav {
