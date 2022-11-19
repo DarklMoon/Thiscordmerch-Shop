@@ -2,6 +2,7 @@ function checkIn() {
     var inEmail = document.getElementById("Email")
     var inPass = document.getElementById("Pass")
     var getData = JSON.parse(localStorage.getItem("userData"))
+    var logIn = document.getElementsByClassName("login")[0]
     var found = false
     var acc = ""
     if (getData == null) {
