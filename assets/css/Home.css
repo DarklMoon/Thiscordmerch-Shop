@@ -8,6 +8,15 @@
   font-size: 60px;
 }
 
+.product-thumb{
+  object-fit: cover;
+}
+
+.product-brand{
+  background: #df965b;
+  text-shadow: 3px 5px 2px #7A7A7A;
+}
+
 .Genre {
   padding: 5vh 0;
   display: flex;
