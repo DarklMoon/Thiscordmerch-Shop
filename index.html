@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiscordmerch Shop</title>
     <link rel="stylesheet" href="assets/css/NavBar.css">
+    <link rel="stylesheet" href="assets/css/caro.css">
+    <link rel="stylesheet" href="assets/css/one.css">
     <!--Import Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -19,10 +21,10 @@
     <!--Import Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr&family=Noto+Sans+KR:wght@500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/Home.css">
+    <!--Icon-->
+    <link rel="icon" href="assets/images/Home/record.png">
 </head>
 
 <body>
@@ -39,14 +41,13 @@
                 <li><a href="catagories.php?Jazz=Jazz">Jazz</a></li>
             </ul>
         </li>
-        <li><a href="#">All</a></li>
         <li id="SideMore">
             <nobr><a href="javascript:void(0)">More ▾</a></nobr>
             <ul class="sideDropdown" id="SideMoreDrop">
                 <li><a href="#">Credit</a></li>
             </ul>
         </li>
-        <li><a href="#account">Account</a></li>
+        <li><a href="login.html">Account</a></li>
         <li><a href="cart.html">Cart</a></li>
         <li><a href="javascript:closeNav()">Close</a></li>
     </ul>
@@ -54,11 +55,11 @@
 
     <div id="main">
         <!-- ------------------NavBar---------------------- -->
-        <div style="background-color: lightgray;">
+        <div style="background-color: #DE7119;">
             <ul class="NavigationBar">
                 <li id="Cart"><a href="cart.html">
                         <i class="material-icons">shopping_cart</i>
-                <li id="Account"><a href="#account">
+                <li id="Account"><a href="login.html">
                         <i class="material-icons">person</i>
                     </a></li>
                 <li id="More"><b><a href="javascript:void(0)">More ▾</a></b>
@@ -66,7 +67,6 @@
                         <li><a href="#">Credit</a></li>
                     </ul>
                 </li>
-                <li id="ShopAll"><b><a href="#ShopAll">All</a></b></li>
                 <li id="Categories"><b><a href="javascript:void(0)">Categories ▾</a></b>
                     <ul class="dropdown" id="categoriesDrop">
                         <li><a href="catagories.php?Luktung=Luktung">Luktung</a></li>
@@ -80,103 +80,169 @@
                 <li id="Menu"><a href="javascript:void(0)" onclick="openNav()"><i
                             class="material-icons">&#xe5d2;</i></a>
                 </li>
-                <li id="Icon"><a href="index.html">Thiscordmerch</a></li>
+                <li id="Icon"><a href="index.html"><img id="Logo" src="assets/images/Home/gramophone.png" style="width:30px; height:30px; margin-right:10px;"><b>Thiscordmerch</b></a></li>
             </ul>
         </div>
         <!-- ------------------End--NavBar----------------- -->
 
         <!-- <image style="width:100%; height:45vw" src="https://i.ytimg.com/vi/K4TOrB7at0Y/maxresdefault.jpg"> -->
 
+         <!-- Hero Section -->
+        <section id = "hero">
+            <div class="hero container">
+                <div>
+                    <h1>ThiscordMerch <span></span></h1>
+                    <h1>Record Shop<span></span></h1>
+                    <h1>Since 2022<span></span></h1>
+                </div>
+            </div>
+        </section>
+        <!--End Hero Section -->
         <!-- <div class="Main"> -->
         <!-- carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+        <section class="product pb-1"> 
+            <h1 class="product-category fw-bold" style="font-size: 50px;">Artist</h1>
+            <hr class="mx-auto">
+            <button class="pre-btn"><img src="pic/arrow/arrow.png" style = "width:50px;"alt=""></button>
+            <button class="nxt-btn"><img src="pic/arrow/arrow.png" style = "width:50px;"alt=""></button>
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/pixxie.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">pixxie</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/dept.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">dept</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/bol 4.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">bol 4</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/crush.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">crush</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/nicecnx.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">nicecnx</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/heize.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">heize</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/punch.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">punch</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/sprite.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">sprite</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/lipta.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">lipta</h2>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pic/Artist/bamm.jpg" class="product-thumb" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">bamm</h2>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://cdn.discordapp.com/attachments/882306005772427284/1033255028716212295/lop-eared-314881_1280.jpg"
-                        class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://cdn.discordapp.com/attachments/882306005772427284/1033255030851108914/pablo-martinez-AdagxtVKRWE-unsplash.jpg"
-                        class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://cdn.discordapp.com/attachments/882306005772427284/1033255049410908220/janan-lagerwall-p2UbTX6Uoig-unsplash.jpg"
-                        class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
+        <script src="assets/js/carou.js"></script>
         <!-- end carousel -->
         <div class="Main">
-            <h1 class="fw-bold">Music genre</h1>
+            <h1 class="fw-bold mt-1" style="font-size: 50px;">Music genre</h1>
             <hr class="mx-auto">
             <div class="row Genre mx-auto">
-                <div class="col-md-2 col-sm-4 col-6">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
                     <a href="catagories.php?Luktung=Luktung">
                         <div class="GenreList mx-auto">
                             Luktung
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-4 col-6">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
                     <a href="catagories.php?T-POP=T-POP">
                         <div class="GenreList mx-auto">
                             T-POP
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-4 col-6">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
                     <a href="catagories.php?K-POP=K-POP">
                         <div class="GenreList mx-auto">
                             K-POP
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-4 col-6">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
                     <a href="catagories.php?HIP-HOP=HIP-HOP">
                         <div class="GenreList mx-auto">
                             HIP-HOP
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-4 col-6">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
                     <a href="catagories.php?R%26B=R%26B">
                         <div class="GenreList mx-auto">
                             R&B
                         </div>
                     </a>
                 </div>
-                <div class="col-md-2 col-sm-4 col-6">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
                     <a href="catagories.php?Jazz=Jazz">
                         <div class="GenreList mx-auto">
                             JAZZ
                         </div>
                     </a>
                 </div>
-
             </div>
+        </div>
             <!-- Recommend -->
-            <h1 class="fw-bold">Recommend</h1>
+            <h1 class="fw-bold mt-5" style="text-align: center; font-size: 50px;">Recommend</h1>
             <hr class="mx-auto">
-            <div class="w-75 mt-5 mx-auto">
-                <div class="row Recommend1 mb-5">
+            <div class="w-75 mt-5 mx-auto row">
+                <div class="row Recommend1 mb-5 ">
                     <div class="col-lg-6 col-sm-12 music">
                         <img src="https://cdn.discordapp.com/attachments/882306005772427284/1035192566485876786/easily.jpg"
                             class="img-fluid" alt="Easily">
@@ -189,7 +255,7 @@
                             won’t come easily Doesn’t mean we shouldn’t try"</p>
                     </div>
                 </div>
-                <div class="row Recommend2 mb-5">
+                <div class="row Recommend2 mb-5 ">
                     <div class="col-lg-6 col-sm-12 music">
                         <img src="https://cdn.discordapp.com/attachments/882306005772427284/1035192567186329740/beatiful.jpg"
                             class="img-fluid" alt="Beautiful">
@@ -202,7 +268,7 @@
                             Beautiful my love Beautiful your heart It's a beautiful life"</p>
                     </div>
                 </div>
-                <div class="row Recommend3 mb-5">
+                <div class="row Recommend3 mb-5 ">
                     <div class="col-lg-6 col-sm-12 music">
                         <img src="https://cdn.discordapp.com/attachments/882306005772427284/1035192586840834140/Eternal_Frame.jpg"
                             class="img-fluid" alt="Ethernal Frame">
@@ -215,7 +281,7 @@
                             you feel the same? Am I only dreaming? Is this burning an eternal flame?"</p>
                     </div>
                 </div>
-                <div class="row Recommend4 mb-5">
+                <div class="row Recommend4 mb-5 ">
                     <div class="col-lg-6 col-sm-12 music">
                         <img src="https://cdn.discordapp.com/attachments/882306005772427284/1035192616670732419/419f4591e0ac693d.jpg"
                             class="img-fluid" alt="หลอก">
@@ -227,7 +293,7 @@
                             สุดท้ายแล้วเป็นไง เธอทิ้งตัวฉันไป แต่อันที่จริงฉันไม่รักเธออยู่แล้ว"</p>
                     </div>
                 </div>
-                <div class="row Recommend5 mb-5">
+                <div class="row Recommend5 mb-5 ">
                     <div class="col-lg-6 col-sm-12 music">
                         <img src="https://cdn.discordapp.com/attachments/882306005772427284/1035192626749648946/3065f3a30de690a0.jpg"
                             class="img-fluid" alt="จี่หอย">
@@ -239,7 +305,7 @@
                             มันเป็นโตมาร กัดกกข้าวในนา มันเป็นโตมาร กัดกกข้าวในนา"</p>
                     </div>
                 </div>
-                <div class="row Recommend6 mb-5">
+                <div class="row Recommend6 mb-5 ">
                     <div class="col-lg-6 col-sm-12 music">
                         <img src="https://cdn.discordapp.com/attachments/882306005772427284/1035192640767004682/f44b670a6aedd8d9.jpg"
                             class="img-fluid" alt="เกินต้าน">
@@ -253,8 +319,39 @@
                     </div>
                 </div>
             </div>
-        </div>
         <!-- end recommend -->
+
+        <footer class="p-4" style="background-color:#18B0B0;">
+            <div class="row mx-auto">
+                <div class="col-12 col-sm-12 col-md-5">
+                    <div style="display: flex">
+                        <img src="assets/images/Home/gramophone.png" style="width:30px; height:30px; margin-right:10px;">
+                        <h3 style="font-size: 15px;"><b>ThiscordMerch</b></h3>
+                    </div>
+                    <p style="color:#353535; font-size: 15px;">This website is part of Web Technology course.
+                    Semester 1, Academic Year 2022.<br>School of Information Technology
+                    <br>King Mongkut's Institute of Technology Ladkrabang</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div><h5 style="font-size: 15px;"><b>Catagories</b></h5></div>
+                    <div><a href="catagories.php?Luktung=Luktung" style="text-decoration: none; color:#353535; font-size: 15px;">Luktung</a></div>
+                    <div><a href="catagories.php?T-POP=T-POP" style="text-decoration: none; color:#353535; font-size: 15px;">T-POP</a></div>
+                    <div><a href="catagories.php?K-POP=K-POP" style="text-decoration: none; color:#353535; font-size: 15px;">K-POP</a></div>
+                    <div><a href="catagories.php?HIP-HOP=HIP-HOP" style="text-decoration: none; color:#353535; font-size: 15px;">Hip hop</a></div>
+                    <div><a href="catagories.php?R%26B=R%26B" style="text-decoration: none; color:#353535; font-size: 15px;">R&B</a></div>
+                    <div><a href="catagories.php?Jazz=Jazz" style="text-decoration: none; color:#353535; font-size: 15px;">Jazz</a></div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div><h5 style="font-size: 15px;"><b>More</b></h5></div>
+                    <div><a href="credit.html" style="text-decoration: none; color:#353535; font-size: 15px;">Credit</a></div>
+                    <div><a href="#" style="text-decoration: none; color:#353535; font-size: 15px;">Account</a></div>
+                    <div><a href="cart.html" style="text-decoration: none; color:#353535; font-size: 15px;">Cart</a></div>
+                </div>
+            </div>
+            <div style="text-align: center; padding-top:30px;">
+                <p style="margin:0; font-size: 15px;">© 2022 ThiscordMerch</p>
+            </div>
+        </footer>
     </div>
     <!-- </div> -->
 

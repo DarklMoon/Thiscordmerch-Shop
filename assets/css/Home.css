@@ -1,11 +1,11 @@
 * {
-  font-family: 'Mitr', 'Noto Sans KR', sans-serif;
+  font-family: 'Mitr', 'Noto Sans KR', sans-serif;;
 }
 
 .Main {
   padding: 5vh 3vw;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .Genre {
