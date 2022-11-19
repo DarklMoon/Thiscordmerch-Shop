@@ -39,7 +39,8 @@
                 <li><a href="catagories.php?Jazz=Jazz">Jazz</a></li>
             </ul>
         </li>
-        <li id="SideMore"><nobr><a href="javascript:void(0)">More ▾</a></nobr>
+        <li id="SideMore">
+            <nobr><a href="javascript:void(0)">More ▾</a></nobr>
             <ul class="sideDropdown" id="SideMoreDrop">
                 <li><a href="credit.html">Credit</a></li>
             </ul>
@@ -53,77 +54,95 @@
     <div id="main">
         <!-- ------------------NavBar---------------------- -->
         <div style="background-color: #DE7119;">
-        <ul class="NavigationBar">
-            <li id="Cart"><a href="cart.html">
-                    <i class="material-icons">shopping_cart</i>
-            <li id="Account"><a href="login.html">
-                    <i class="material-icons">person</i>
-                </a></li>
-            <li id="More"><b><a href="javascript:void(0)">More ▾</a></b>
-                <ul class="dropdown" id="moreDrop">
-                    <li><a href="credit.html">Credit</a></li>
-                </ul>
-            </li>
-            <li id="Categories"><b><a href="javascript:void(0)">Categories ▾</a></b>
-                <ul class="dropdown" id="categoriesDrop">
-                    <li><a href="catagories.php?Luktung=Luktung">Luktung</a></li>
-                    <li><a href="catagories.php?T-POP=T-POP">T-POP</a></li>
-                    <li><a href="catagories.php?K-POP=K-POP">K-POP</a></li>
-                    <li><a href="catagories.php?HIP-HOP=HIP-HOP">Hip hop</a></li>
-                    <li><a href="catagories.php?R%26B=R%26B">R&B</a></li>
-                    <li><a href="catagories.php?Jazz=Jazz">Jazz</a></li>
-                </ul>
-            </li>
-            <li id="Menu"><a href="javascript:void(0)" onclick="openNav()"><i class="material-icons">&#xe5d2;</i></a></li>
-            <li id="Icon"><a href="index.html"><img id="Logo" src="assets/images/Home/gramophone.png" style="width:30px; height:30px; margin-right:10px;"><b>Thiscordmerch</b></a></li>
-        </ul>
+            <ul class="NavigationBar">
+                <li id="Cart"><a href="cart.html">
+                        <i class="material-icons">shopping_cart</i>
+                <li id="Account"><a href="login.html">
+                        <i class="material-icons">person</i>
+                    </a></li>
+                <li id="More"><b><a href="javascript:void(0)">More ▾</a></b>
+                    <ul class="dropdown" id="moreDrop">
+                        <li><a href="credit.html">Credit</a></li>
+                    </ul>
+                </li>
+                <li id="Categories"><b><a href="javascript:void(0)">Categories ▾</a></b>
+                    <ul class="dropdown" id="categoriesDrop">
+                        <li><a href="catagories.php?Luktung=Luktung">Luktung</a></li>
+                        <li><a href="catagories.php?T-POP=T-POP">T-POP</a></li>
+                        <li><a href="catagories.php?K-POP=K-POP">K-POP</a></li>
+                        <li><a href="catagories.php?HIP-HOP=HIP-HOP">Hip hop</a></li>
+                        <li><a href="catagories.php?R%26B=R%26B">R&B</a></li>
+                        <li><a href="catagories.php?Jazz=Jazz">Jazz</a></li>
+                    </ul>
+                </li>
+                <li id="Menu"><a href="javascript:void(0)" onclick="openNav()"><i
+                            class="material-icons">&#xe5d2;</i></a></li>
+                <li id="Icon"><a href="index.html"><img id="Logo" src="assets/images/Home/gramophone.png"
+                            style="width:30px; height:30px; margin-right:10px;"><b>Thiscordmerch</b></a></li>
+            </ul>
         </div>
         <!-- ------------------End--NavBar----------------- -->
 
         <div class="product-container">
             <div class="pic-product">
                 <div class="img-container">
-                    <img id="pic-record" src="" alt="name_record" >
-                    <svg id="btn-p" onclick="musicOn()" width="22%" height="23%" viewBox="0 0 130 132" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="65" cy="66" rx="65" ry="66" fill="#116979"/>
-                        <path d="M99 66L48.75 98.909L48.75 33.091L99 66Z" fill="white"/>
+                    <img id="pic-record" src="" alt="name_record">
+                    <svg id="btn-p" onclick="musicOn()" width="22%" height="23%" viewBox="0 0 130 132" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="65" cy="66" rx="65" ry="66" fill="#116979" />
+                        <path d="M99 66L48.75 98.909L48.75 33.091L99 66Z" fill="white" />
                     </svg>
                 </div>
             </div>
             <div class="info-product">
-                <h1><b id="name-product">Record Product Name</b></h1>
-                <h4 style="padding-top: 3%;">$ 10.00</h4>
-                <p style="padding-top: 1%; margin:0;"><b>Artist:&nbsp;&nbsp;</b><span id="content-artist"></span></p>
-                <p style="padding-top: 1%; margin:0;"><b>Description:&nbsp;&nbsp;</b><span id="content-des"></span></p>
-                <div class="addProduct-container">
-                    <button onclick="addProduct()" id="btn-addProduct">Add to Cart</button>
+                <div class="infoStk">
+                    <h1><b id="name-product">Record Product Name</b></h1>
+                    <h4 style="padding-top: 3%;">$ 10.00</h4>
+                    <p style="padding-top: 1%; margin:0;"><b>Artist:&nbsp;&nbsp;</b><span id="content-artist"></span>
+                    </p>
+                    <p style="padding-top: 1%; margin:0;"><b>Description:&nbsp;&nbsp;</b><span id="content-des"></span>
+                    </p>
+                    <div class="addProduct-container">
+                        <button onclick="addProduct()" id="btn-addProduct">Add to Cart</button>
+                    </div>
                 </div>
             </div>
-            
+
         </div>
 
         <footer class="p-4" style="background-color:#18B0B0;">
             <div class="row mx-auto">
                 <div class="col-12 col-sm-12 col-md-5">
                     <div style="display: flex">
-                        <img src="assets/images/Home/gramophone.png" style="width:30px; height:30px; margin-right:10px;">
+                        <img src="assets/images/Home/gramophone.png"
+                            style="width:30px; height:30px; margin-right:10px;">
                         <h3><b>ThiscordMerch</b></h3>
                     </div>
                     <p style="color:#353535;">This website is part of Web Technology course.
-                    Semester 1, Academic Year 2022.<br>School of Information Technology
-                    <br>King Mongkut's Institute of Technology Ladkrabang</p>
+                        Semester 1, Academic Year 2022.<br>School of Information Technology
+                        <br>King Mongkut's Institute of Technology Ladkrabang
+                    </p>
                 </div>
                 <div class="col-6 col-sm-6 col-md-4">
-                    <div><h5><b>Catagories</b></h5></div>
-                    <div><a href="catagories.php?Luktung=Luktung" style="text-decoration: none; color:#353535;">Luktung</a></div>
-                    <div><a href="catagories.php?T-POP=T-POP" style="text-decoration: none; color:#353535;">T-POP</a></div>
-                    <div><a href="catagories.php?K-POP=K-POP" style="text-decoration: none; color:#353535;">K-POP</a></div>
-                    <div><a href="catagories.php?HIP-HOP=HIP-HOP" style="text-decoration: none; color:#353535;">Hip hop</a></div>
-                    <div><a href="catagories.php?R%26B=R%26B" style="text-decoration: none; color:#353535;">R&B</a></div>
+                    <div>
+                        <h5><b>Catagories</b></h5>
+                    </div>
+                    <div><a href="catagories.php?Luktung=Luktung"
+                            style="text-decoration: none; color:#353535;">Luktung</a></div>
+                    <div><a href="catagories.php?T-POP=T-POP" style="text-decoration: none; color:#353535;">T-POP</a>
+                    </div>
+                    <div><a href="catagories.php?K-POP=K-POP" style="text-decoration: none; color:#353535;">K-POP</a>
+                    </div>
+                    <div><a href="catagories.php?HIP-HOP=HIP-HOP" style="text-decoration: none; color:#353535;">Hip
+                            hop</a></div>
+                    <div><a href="catagories.php?R%26B=R%26B" style="text-decoration: none; color:#353535;">R&B</a>
+                    </div>
                     <div><a href="catagories.php?Jazz=Jazz" style="text-decoration: none; color:#353535;">Jazz</a></div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-3">
-                    <div><h5><b>More</b></h5></div>
+                    <div>
+                        <h5><b>More</b></h5>
+                    </div>
                     <div><a href="credit.html" style="text-decoration: none; color:#353535;">Credit</a></div>
                     <div><a href="#" style="text-decoration: none; color:#353535;">Account</a></div>
                     <div><a href="cart.html" style="text-decoration: none; color:#353535;">Cart</a></div>
@@ -136,10 +155,11 @@
 
     </div>
     <!-- ------------------Product---------------------- -->
-    
 
-    <script  type="text/javascript" src="assets/js/product.js"></script>
-    <script  type="text/javascript" src="assets/js/cart.js?v=1"></script>
-    <script  type="text/javascript" src="assets/js/NavBar.js"></script>
+
+    <script type="text/javascript" src="assets/js/product.js"></script>
+    <script type="text/javascript" src="assets/js/cart.js?v=1"></script>
+    <script type="text/javascript" src="assets/js/NavBar.js"></script>
 </body>
+
 </html>

@@ -1,25 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
 
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: auto;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   overflow: visible;
   background-color: #edf2f1;
 }
 
-#main{width:100%; overflow-x:hidden; transition: margin-left .5s; background-color: #edf2f1;}
-#Icon{transition: margin-left .5s;}
+#main {
+  width: 100%;
+  /* overflow-x: hidden; */
+  transition: margin-left .5s;
+  background-color: #edf2f1;
+}
 
-.NavigationBar{
+#Icon {
+  transition: margin-left .5s;
+}
+
+.NavigationBar {
   list-style-type: none;
   margin: 0;
   padding: 0vh 10vw;
@@ -28,66 +37,150 @@ html, body {
   display: block;
   max-height: 69px;
 }
-.NavigationBar li{float:right;}
-.NavigationBar li#Icon{float:left;}
-.NavigationBar li a{
+
+.NavigationBar li {
+  float: right;
+}
+
+.NavigationBar li#Icon {
+  float: left;
+}
+
+.NavigationBar li a {
   display: block;
   color: black;
   text-align: center;
   text-decoration: none;
-  padding:21.5px 1vw;
+  padding: 21.5px 1vw;
 }
 
-.NavigationBar li a i{padding-top:0.5vh;}
+.NavigationBar li a i {
+  padding-top: 0.5vh;
+}
 
-.NavigationBar li:hover{background-color: black;}
-.NavigationBar li:hover a{color: white;}
-.NavigationBar li:hover ul li a{color: black;}
+.NavigationBar li:hover {
+  background-color: black;
+}
 
-#Icon:hover{background-color: transparent;}
-#Icon:hover a{color: black;}
+.NavigationBar li:hover a {
+  color: white;
+}
 
-.dropdown{
+.NavigationBar li:hover ul li a {
+  color: black;
+}
+
+#Icon:hover {
+  background-color: transparent;
+}
+
+#Icon:hover a {
+  color: black;
+}
+
+.dropdown {
   padding: 0;
   list-style: none;
   display: none;
-  float:left;
+  float: left;
   background: #f7ddc8;
   z-index: 1;
 }
-.dropdown li{
+
+.dropdown li {
   position: relative;
   display: block;
-  float:none;
-  left:0;
+  float: none;
+  left: 0;
 }
-.dropdown li a{padding:1vh 2.5vw 1vh 1vw; float:left; text-align: left; width:100%; color:black;}
-.dropdown li div{width:100%; display:inline;}
-.dropdown li div a{width:80%;}
-.dropdown li div span{width:20% ;float:right; padding: 1vh 0vw;}
 
-.dropdown li a:hover{background-color: #DE7119;}
+.dropdown li a {
+  padding: 1vh 2.5vw 1vh 1vw;
+  float: left;
+  text-align: left;
+  width: 100%;
+  color: black;
+}
 
-#categoriesDrop, #moreDrop{min-width: 12vw; position: absolute;}
+.dropdown li div {
+  width: 100%;
+  display: inline;
+}
 
-#Categories:hover #categoriesDrop{display: block; position: absolute; margin-top:-3px;} 
-#More:hover #moreDrop{display: block; position: absolute; margin-top:-3px;}
+.dropdown li div a {
+  width: 80%;
+}
 
-#Menu{float:left; display:none;}
+.dropdown li div span {
+  width: 20%;
+  float: right;
+  padding: 1vh 0vw;
+}
+
+.dropdown li a:hover {
+  background-color: #DE7119;
+}
+
+#categoriesDrop,
+#moreDrop {
+  min-width: 12vw;
+  position: absolute;
+}
+
+#Categories:hover #categoriesDrop {
+  display: block;
+  position: absolute;
+  margin-top: -3px;
+}
+
+#More:hover #moreDrop {
+  display: block;
+  position: absolute;
+  margin-top: -3px;
+}
+
+#Menu {
+  float: left;
+  display: none;
+}
 
 @media screen and (max-width:950px) {
-  #More, #ShopAll, #Categories, #New{display: none;}
-  #Menu {display: block;}
-  #Icon {position: absolute; left: 50%;transform: translate(-50%, 0%);}
-  #Menu:hover, #Account:hover, #Cart:hover {background: transparent; color:black;}
+
+  #More,
+  #ShopAll,
+  #Categories,
+  #New {
+    display: none;
+  }
+
+  #Menu {
+    display: block;
+  }
+
+  #Icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  #Menu:hover,
+  #Account:hover,
+  #Cart:hover {
+    background: transparent;
+    color: black;
+  }
 }
 
 @media screen and (max-width:600px) {
-  #Account{display: none;}
+  #Account {
+    display: none;
+  }
 }
 
 @media screen and (max-width:380px) {
-  #Logo{display: none;}
+  #Logo {
+    display: none;
+  }
 }
 
 .SideNav {
@@ -100,7 +193,7 @@ html, body {
   background-color: #111;
   overflow: hidden;
   transition: 0.5s;
-  padding:0;
+  padding: 0;
   padding-top: 60px;
 }
 
@@ -112,22 +205,32 @@ html, body {
   display: inline-block;
   transition: 0.3s;
 }
-.SideNav a:hover{text-decoration: none;}
 
-.sideDropdown{
-  padding:0;
+.SideNav a:hover {
+  text-decoration: none;
+}
+
+.sideDropdown {
+  padding: 0;
   list-style: none;
   display: none;
-  float:left;
+  float: left;
   color: white;
   z-index: 2;
 }
-.sideDropdown li{
-  padding-left:30px;
+
+.sideDropdown li {
+  padding-left: 30px;
   position: relative;
   display: block;
-  float:none;
-  left:0;
+  float: none;
+  left: 0;
 }
-#SideCategories:hover #SideCategoriesDrop{display: block;}
-#SideMore:hover #SideMoreDrop{display: block;}
+
+#SideCategories:hover #SideCategoriesDrop {
+  display: block;
+}
+
+#SideMore:hover #SideMoreDrop {
+  display: block;
+}

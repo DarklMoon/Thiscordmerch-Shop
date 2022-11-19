@@ -3,7 +3,7 @@
 .product-container{
     display: grid;
     column-gap: 2%;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
     margin: 20vh 0vh;
 }
 
@@ -23,10 +23,15 @@
 }
 
 .info-product{  
-    padding: 10% 15% 10% 5%;
+    padding: 5% 15% 10% 5%;
     margin: 2%;
+    position: relative;
 }
 
+.infoStk{
+    position: sticky;
+    top: 0;
+}
 #btn-p{
     position: absolute;
     top: 85%;
